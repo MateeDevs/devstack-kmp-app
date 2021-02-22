@@ -6,9 +6,10 @@ actual object Log : Logger {
         TODO("Not yet implemented")
     }
 
-    override fun w(tag: String, message: String) {
+    override fun w(tag: String, message: String, throwable: Throwable?) {
         TODO("Not yet implemented")
     }
+
 
     override fun e(tag: String, message: String, throwable: Throwable) {
         TODO("Not yet implemented")

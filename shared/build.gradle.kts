@@ -5,6 +5,7 @@ plugins {
     kotlin("multiplatform")
     kotlin("plugin.serialization") version kotlinVersion
     id("com.squareup.sqldelight")
+    id("com.chromaticnoise.multiplatform-swiftpackage") version "2.0.3"
 }
 
 // https://youtrack.jetbrains.com/issue/KT-43944
@@ -28,7 +29,7 @@ kotlin {
     iOSTarget("ios") {
         binaries {
             framework {
-                baseName = Project.shared
+                baseName = Project.iosShared
             }
         }
     }
@@ -56,12 +57,14 @@ kotlin {
             }
         }
 
+
         val iosMain by getting {
             dependencies {
                 implementation(Dependency.Ktor.ios)
                 implementation(Dependency.SqlDelight.iosDriver)
             }
         }
+
     }
 }
 
@@ -90,4 +93,12 @@ sqldelight {
     database("Database") {
         packageName = "cz.matee.devstack.kmp"
     }
+
+multiplatformSwiftPackage {
+    swiftToolsVersion("5.3")
+    targetPlatforms {
+        iOS { v("11") }
+    }
+    packageName(Project.iosShared)
+
 }
