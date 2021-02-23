@@ -1,7 +1,6 @@
 *.iml
 *.ipr
 *.iws
-**/swiftpackage/*
 
 .gradle
 /local.properties
