@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class DKSUser, DKSUserData, DKSUserPaging, DKSKotlinUnit, DKSResult<__covariant T>, DKSUserPagingParameters, DKSUserPagingRequest, DKSUserUpdateParameters, DKSUserUpdateRequest, DKSKotlinx_coroutines_coreCoroutineDispatcher, DKSUseCase<__contravariant Params, __covariant T>, DKSUseCaseResultNoParams<__covariant T>, DKSUseCaseResult<__contravariant Params, __covariant T>, DKSGetUserUseCaseParams, DKSUseCaseNoParams<__covariant T>, DKSLoginUseCaseParams, DKSRegisterUseCaseParams, DKSLoginRequest, DKSRegistrationRequest, DKSUserDto, DKSUserPagingDto, DKSKtor_client_coreHttpClient, DKSLoginDto, DKSRegistrationDto, DKSKotlinThrowable, DKSKotlinArray<T>, DKSKotlinException, DKSKtor_httpUrl, DKSUserDataDto, DKSAuthService, DKSUserService, DKSErrorResult, DKSResultError<__covariant T>, DKSResultSuccess<__covariant T>, DKSAuthError, DKSBackendError, DKSCommonError, DKSResultType, DKSKoin_coreDefinitionParameters, DKSKoin_coreScope, DKSKotlinLazyThreadSafetyMode, DKSKoin_coreModule, DKSKoin_coreLogger, DKSKoin_corePropertyRegistry, DKSKoin_coreScopeRegistry, DKSKoin_coreKoin, DKSKoin_coreKoinApplication, DKSKotlinRuntimeException, DKSKotlinIllegalStateException, DKSKotlinAbstractCoroutineContextElement, DKSKtor_client_coreHttpClientEngineConfig, DKSKtor_client_coreHttpClientConfig<T>, DKSKtor_client_coreHttpRequestBuilder, DKSKtor_client_coreHttpClientCall, DKSKtor_client_coreHttpReceivePipeline, DKSKtor_client_coreHttpRequestPipeline, DKSKtor_client_coreHttpResponsePipeline, DKSKtor_client_coreHttpSendPipeline, DKSKtor_httpURLProtocol, DKSKoin_coreScopeDefinition, DKSKoin_coreBeanDefinition<T>, DKSKotlinEnum<E>, DKSKoin_coreOptions, DKSKoin_coreScopeDSL, DKSKoin_coreLevel, DKSKotlinx_serialization_coreSerializersModule, DKSKotlinx_serialization_coreSerialKind, DKSKotlinNothing, DKSKtor_client_coreHttpRequestData, DKSKtor_client_coreHttpResponseData, DKSKtor_client_coreProxyConfig, DKSKtor_httpHeadersBuilder, DKSKtor_httpURLBuilder, DKSKtor_httpHttpMethod, DKSKtor_client_coreTypeInfo, DKSKtor_client_coreHttpResponse, DKSKtor_utilsAttributeKey<T>, DKSKtor_utilsPipelinePhase, DKSKtor_utilsPipeline<TSubject, TContext>, DKSKtor_client_coreHttpResponseContainer, DKSKoin_coreKind, DKSKoin_coreProperties, DKSKoin_coreCallbacks<T>, DKSKtor_httpOutgoingContent, DKSKtor_httpHttpStatusCode, DKSKtor_utilsGMTDate, DKSKtor_httpHttpProtocolVersion, DKSKtor_utilsStringValuesBuilder, DKSKtor_httpParametersBuilder, DKSKotlinx_coroutines_coreCancellationException, DKSKtor_ioMemory, DKSKtor_ioIoBuffer, DKSKotlinByteArray, DKSKtor_ioByteReadPacket, DKSKtor_ioByteOrder, DKSKtor_httpContentType, DKSKtor_utilsWeekDay, DKSKtor_utilsMonth, DKSKtor_ioBuffer, DKSKtor_ioChunkBuffer, DKSKotlinCharArray, DKSKotlinByteIterator, DKSKtor_ioAbstractInput, DKSKtor_ioByteReadPacketBase, DKSKtor_ioByteReadPacketPlatformBase, DKSKotlinKTypeProjection, DKSKtor_httpHeaderValueParam, DKSKtor_httpHeaderValueWithParameters, DKSKotlinx_coroutines_coreAtomicDesc, DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, DKSKotlinCharIterator, DKSKotlinKVariance, DKSKotlinx_coroutines_coreAtomicOp<__contravariant T>, DKSKotlinx_coroutines_coreOpDescriptor, DKSKotlinx_coroutines_coreLockFreeLinkedListNode, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class DKSKotlinThrowable, DKSFlowWrapperParent<Params, T>, DKSSuspendWrapperParent<Params, Out>, DKSUser, DKSUserData, DKSUserPaging, DKSKotlinUnit, DKSResult<__covariant T>, DKSUserPagingParameters, DKSUserPagingRequest, DKSUserUpdateParameters, DKSUserUpdateRequest, DKSKotlinx_coroutines_coreCoroutineDispatcher, DKSUseCase<__contravariant Params, __covariant T>, DKSUseCaseResultNoParams<__covariant T>, DKSUseCaseFlowResultNoParams<__covariant T>, DKSUseCaseResult<__contravariant Params, __covariant T>, DKSGetUserUseCaseParams, DKSUseCaseNoParams<__covariant T>, DKSLoginUseCaseParams, DKSRegisterUseCaseParams, DKSLoginRequest, DKSRegistrationRequest, DKSUserDto, DKSUserPagingDto, DKSKtor_client_coreHttpClient, DKSLoginDto, DKSRegistrationDto, DKSKotlinArray<T>, DKSKotlinException, DKSKtor_httpUrl, DKSUserDataDto, DKSAuthService, DKSUserService, DKSErrorResult, DKSResultError<__covariant T>, DKSResultSuccess<__covariant T>, DKSAuthError, DKSBackendError, DKSCommonError, DKSResultType, DKSUseCaseFlowResult<__contravariant Params, __covariant T>, DKSKoin_coreDefinitionParameters, DKSKoin_coreScope, DKSKotlinLazyThreadSafetyMode, DKSKoin_coreModule, DKSKoin_coreLogger, DKSKoin_corePropertyRegistry, DKSKoin_coreScopeRegistry, DKSKoin_coreKoin, DKSKoin_coreKoinApplication, DKSKotlinx_coroutines_coreCancellationException, DKSKotlinRuntimeException, DKSKotlinIllegalStateException, DKSKotlinAbstractCoroutineContextElement, DKSKtor_client_coreHttpClientEngineConfig, DKSKtor_client_coreHttpClientConfig<T>, DKSKtor_client_coreHttpRequestBuilder, DKSKtor_client_coreHttpClientCall, DKSKtor_client_coreHttpReceivePipeline, DKSKtor_client_coreHttpRequestPipeline, DKSKtor_client_coreHttpResponsePipeline, DKSKtor_client_coreHttpSendPipeline, DKSKtor_httpURLProtocol, DKSKoin_coreScopeDefinition, DKSKoin_coreBeanDefinition<T>, DKSKotlinEnum<E>, DKSKoin_coreOptions, DKSKoin_coreScopeDSL, DKSKoin_coreLevel, DKSKotlinx_serialization_coreSerializersModule, DKSKotlinx_serialization_coreSerialKind, DKSKotlinNothing, DKSKtor_client_coreHttpRequestData, DKSKtor_client_coreHttpResponseData, DKSKtor_client_coreProxyConfig, DKSKtor_httpHeadersBuilder, DKSKtor_httpURLBuilder, DKSKtor_httpHttpMethod, DKSKtor_client_coreTypeInfo, DKSKtor_client_coreHttpResponse, DKSKtor_utilsAttributeKey<T>, DKSKtor_utilsPipelinePhase, DKSKtor_utilsPipeline<TSubject, TContext>, DKSKtor_client_coreHttpResponseContainer, DKSKoin_coreKind, DKSKoin_coreProperties, DKSKoin_coreCallbacks<T>, DKSKotlinx_coroutines_coreAtomicDesc, DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, DKSKtor_httpOutgoingContent, DKSKtor_httpHttpStatusCode, DKSKtor_utilsGMTDate, DKSKtor_httpHttpProtocolVersion, DKSKtor_utilsStringValuesBuilder, DKSKtor_httpParametersBuilder, DKSKtor_ioMemory, DKSKtor_ioIoBuffer, DKSKotlinByteArray, DKSKtor_ioByteReadPacket, DKSKtor_ioByteOrder, DKSKotlinx_coroutines_coreAtomicOp<__contravariant T>, DKSKotlinx_coroutines_coreOpDescriptor, DKSKotlinx_coroutines_coreLockFreeLinkedListNode, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, DKSKtor_httpContentType, DKSKtor_utilsWeekDay, DKSKtor_utilsMonth, DKSKtor_ioBuffer, DKSKtor_ioChunkBuffer, DKSKotlinCharArray, DKSKotlinByteIterator, DKSKtor_ioAbstractInput, DKSKtor_ioByteReadPacketBase, DKSKtor_ioByteReadPacketPlatformBase, DKSKotlinKTypeProjection, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, DKSKtor_httpHeaderValueParam, DKSKtor_httpHeaderValueWithParameters, DKSKotlinCharIterator, DKSKotlinKVariance;
 
-@protocol DKSAuthRepository, DKSUserRepository, DKSAuthDao, DKSUserRemoteSource, DKSKotlinx_serialization_coreKSerializer, DKSConfig, DKSLogger, DKSKotlinKClass, DKSKoin_coreKoinScopeComponent, DKSKoin_coreQualifier, DKSKotlinLazy, DKSErrorMessageProvider, DKSKotlinCoroutineContextKey, DKSKotlinCoroutineContextElement, DKSKotlinCoroutineContext, DKSKotlinContinuation, DKSKotlinContinuationInterceptor, DKSKotlinx_coroutines_coreRunnable, DKSKotlinx_serialization_coreEncoder, DKSKotlinx_serialization_coreSerialDescriptor, DKSKotlinx_serialization_coreSerializationStrategy, DKSKotlinx_serialization_coreDecoder, DKSKotlinx_serialization_coreDeserializationStrategy, DKSKotlinx_coroutines_coreCoroutineScope, DKSKtor_ioCloseable, DKSKtor_client_coreHttpClientEngine, DKSKtor_client_coreHttpClientEngineCapability, DKSKtor_utilsAttributes, DKSKotlinIterator, DKSKtor_httpParameters, DKSKotlinKDeclarationContainer, DKSKotlinKAnnotatedElement, DKSKotlinKClassifier, DKSKoin_coreScopeCallback, DKSKoin_coreKoinComponent, DKSKotlinComparable, DKSKotlinx_serialization_coreCompositeEncoder, DKSKotlinAnnotation, DKSKotlinx_serialization_coreCompositeDecoder, DKSKtor_client_coreHttpClientFeature, DKSKtor_httpHttpMessageBuilder, DKSKotlinx_coroutines_coreJob, DKSKtor_ioByteReadChannel, DKSKtor_client_coreHttpRequest, DKSKotlinSuspendFunction2, DKSKotlinMapEntry, DKSKtor_utilsStringValues, DKSKotlinx_serialization_coreSerializersModuleCollector, DKSKtor_httpHeaders, DKSKotlinx_coroutines_coreChildHandle, DKSKotlinx_coroutines_coreChildJob, DKSKotlinx_coroutines_coreDisposableHandle, DKSKotlinSequence, DKSKotlinx_coroutines_coreSelectClause0, DKSKtor_ioReadSession, DKSKotlinSuspendFunction1, DKSKotlinAppendable, DKSKotlinKType, DKSKtor_httpHttpMessage, DKSKotlinFunction, DKSKotlinx_coroutines_coreParentJob, DKSKotlinx_coroutines_coreSelectInstance, DKSKotlinSuspendFunction0, DKSKtor_ioObjectPool, DKSKtor_ioInput, DKSKtor_ioOutput;
+@protocol DKSKotlinx_coroutines_coreJob, DKSKotlinSuspendFunction1, DKSAuthRepository, DKSKotlinx_coroutines_coreFlow, DKSUserRepository, DKSAuthDao, DKSUserRemoteSource, DKSKotlinx_serialization_coreKSerializer, DKSConfig, DKSLogger, DKSKotlinKClass, DKSKoin_coreKoinScopeComponent, DKSKoin_coreQualifier, DKSKotlinLazy, DKSKotlinx_coroutines_coreCoroutineScope, DKSErrorMessageProvider, DKSKotlinx_coroutines_coreChildHandle, DKSKotlinx_coroutines_coreChildJob, DKSKotlinx_coroutines_coreDisposableHandle, DKSKotlinSequence, DKSKotlinx_coroutines_coreSelectClause0, DKSKotlinCoroutineContextKey, DKSKotlinCoroutineContextElement, DKSKotlinCoroutineContext, DKSKotlinFunction, DKSKotlinContinuation, DKSKotlinContinuationInterceptor, DKSKotlinx_coroutines_coreRunnable, DKSKotlinx_coroutines_coreFlowCollector, DKSKotlinx_serialization_coreEncoder, DKSKotlinx_serialization_coreSerialDescriptor, DKSKotlinx_serialization_coreSerializationStrategy, DKSKotlinx_serialization_coreDecoder, DKSKotlinx_serialization_coreDeserializationStrategy, DKSKtor_ioCloseable, DKSKtor_client_coreHttpClientEngine, DKSKtor_client_coreHttpClientEngineCapability, DKSKtor_utilsAttributes, DKSKotlinIterator, DKSKtor_httpParameters, DKSKotlinKDeclarationContainer, DKSKotlinKAnnotatedElement, DKSKotlinKClassifier, DKSKoin_coreScopeCallback, DKSKoin_coreKoinComponent, DKSKotlinComparable, DKSKotlinx_coroutines_coreParentJob, DKSKotlinx_coroutines_coreSelectInstance, DKSKotlinSuspendFunction0, DKSKotlinx_serialization_coreCompositeEncoder, DKSKotlinAnnotation, DKSKotlinx_serialization_coreCompositeDecoder, DKSKtor_client_coreHttpClientFeature, DKSKtor_httpHttpMessageBuilder, DKSKtor_ioByteReadChannel, DKSKtor_client_coreHttpRequest, DKSKotlinSuspendFunction2, DKSKotlinMapEntry, DKSKtor_utilsStringValues, DKSKotlinx_serialization_coreSerializersModuleCollector, DKSKtor_httpHeaders, DKSKtor_ioReadSession, DKSKotlinAppendable, DKSKotlinKType, DKSKtor_httpHttpMessage, DKSKtor_ioObjectPool, DKSKtor_ioInput, DKSKtor_ioOutput;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -136,6 +136,28 @@ __attribute__((swift_name("KotlinBoolean")))
 @interface DKSBoolean : DKSNumber
 - (instancetype)initWithBool:(BOOL)value;
 + (instancetype)numberWithBool:(BOOL)value;
+@end;
+
+__attribute__((swift_name("FlowWrapperParent")))
+@interface DKSFlowWrapperParent<Params, T> : DKSBase
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(Params _Nullable)params onEach:(void (^)(T _Nullable))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onEach:onComplete:onThrow:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FlowWrapper")))
+@interface DKSFlowWrapper<Params, Out> : DKSFlowWrapperParent<Params, Out>
+- (instancetype)initWithFlow:(id<DKSKotlinSuspendFunction1>)flow __attribute__((swift_name("init(flow:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((swift_name("SuspendWrapperParent")))
+@interface DKSSuspendWrapperParent<Params, Out> : DKSBase
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(Params _Nullable)params onSuccess:(void (^)(Out _Nullable))onSuccess onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onSuccess:onThrow:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SuspendWrapper")))
+@interface DKSSuspendWrapper<Params, Out> : DKSSuspendWrapperParent<Params, Out>
+- (instancetype)initWithSuspender:(id<DKSKotlinSuspendFunction1>)suspender __attribute__((swift_name("init(suspender:)"))) __attribute__((objc_designated_initializer));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -330,6 +352,31 @@ __attribute__((swift_name("DeleteAuthDataUseCase")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("UseCaseFlowResultNoParams")))
+@interface DKSUseCaseFlowResultNoParams<__covariant T> : DKSUseCase<DKSKotlinUnit *, id<DKSKotlinx_coroutines_coreFlow>>
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetDummyFlowUseCase")))
+@interface DKSGetDummyFlowUseCase : DKSUseCaseFlowResultNoParams<NSString *>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -617,6 +664,15 @@ __attribute__((swift_name("UserUpdateRequest")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserUpdateRequest.Companion")))
+@interface DKSUserUpdateRequestCompanion : DKSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<DKSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AuthPaths")))
 @interface DKSAuthPaths : DKSBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -804,14 +860,14 @@ __attribute__((swift_name("UserDataDto.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserDto")))
 @interface DKSUserDto : DKSBase
-- (instancetype)initWithBio:(NSString *)bio email:(NSString *)email firstName:(NSString *)firstName id:(NSString *)id lastName:(NSString *)lastName phone:(NSString * _Nullable)phone __attribute__((swift_name("init(bio:email:firstName:id:lastName:phone:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id email:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName bio:(NSString *)bio phone:(NSString * _Nullable)phone __attribute__((swift_name("init(id:email:firstName:lastName:bio:phone:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (NSString *)component2 __attribute__((swift_name("component2()")));
 - (NSString *)component3 __attribute__((swift_name("component3()")));
 - (NSString *)component4 __attribute__((swift_name("component4()")));
 - (NSString *)component5 __attribute__((swift_name("component5()")));
 - (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
-- (DKSUserDto *)doCopyBio:(NSString *)bio email:(NSString *)email firstName:(NSString *)firstName id:(NSString *)id lastName:(NSString *)lastName phone:(NSString * _Nullable)phone __attribute__((swift_name("doCopy(bio:email:firstName:id:lastName:phone:)")));
+- (DKSUserDto *)doCopyId:(NSString *)id email:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName bio:(NSString *)bio phone:(NSString * _Nullable)phone __attribute__((swift_name("doCopy(id:email:firstName:lastName:bio:phone:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1031,6 +1087,11 @@ __attribute__((swift_name("Success")))
 + (instancetype)success __attribute__((swift_name("init()")));
 @end;
 
+__attribute__((swift_name("UseCaseFlowResult")))
+@interface DKSUseCaseFlowResult<__contravariant Params, __covariant T> : DKSUseCase<Params, id<DKSKotlinx_coroutines_coreFlow>>
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
+@end;
+
 __attribute__((swift_name("Config")))
 @protocol DKSConfig
 @required
@@ -1062,6 +1123,30 @@ __attribute__((swift_name("Log")))
 - (void)dTag:(NSString *)tag message:(NSString *)message __attribute__((swift_name("d(tag:message:)")));
 - (void)eTag:(NSString *)tag message:(NSString *)message throwable:(DKSKotlinThrowable *)throwable __attribute__((swift_name("e(tag:message:throwable:)")));
 - (void)wTag:(NSString *)tag message:(NSString *)message throwable:(DKSKotlinThrowable * _Nullable)throwable __attribute__((swift_name("w(tag:message:throwable:)")));
+@end;
+
+@interface DKSUseCase (Extensions)
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(id)params onSuccess:(void (^)(id))onSuccess onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onSuccess:onThrow:)")));
+@end;
+
+@interface DKSUseCaseFlowResult (Extensions)
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(id)params onEach:(void (^)(DKSResult<id> *))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onEach:onComplete:onThrow:)")));
+@end;
+
+@interface DKSUseCaseFlowResultNoParams (Extensions)
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeOnEach:(void (^)(DKSResult<id> *))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(onEach:onComplete:onThrow:)")));
+@end;
+
+@interface DKSUseCaseNoParams (Extensions)
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeOnSuccess:(void (^)(id))onSuccess onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(onSuccess:onThrow:)")));
+@end;
+
+@interface DKSUseCaseResult (Extensions)
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(id)params onSuccess:(void (^)(DKSResult<id> *))onSuccess onThrow_:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onSuccess:onThrow_:)")));
+@end;
+
+@interface DKSUseCaseResultNoParams (Extensions)
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeOnSuccess:(void (^)(DKSResult<id> *))onSuccess onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(onSuccess:onThrow:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1114,6 +1199,12 @@ __attribute__((swift_name("Koin_coreKoin")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SwiftCoroutinesKt")))
+@interface DKSSwiftCoroutinesKt : DKSBase
+@property (class, readonly) id<DKSKotlinx_coroutines_coreCoroutineScope> iosDefaultScope __attribute__((swift_name("iosDefaultScope")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KoinIOSKt")))
 @interface DKSKoinIOSKt : DKSBase
 + (DKSKoin_coreKoinApplication *)doInitKoinIosDoOnStartup:(void (^)(void))doOnStartup __attribute__((swift_name("doInitKoinIos(doOnStartup:)")));
@@ -1152,6 +1243,60 @@ __attribute__((swift_name("ResultToKt")))
 + (DKSResult<id> *)resultsTo:(id _Nullable)receiver result_:(DKSErrorResult *)result __attribute__((swift_name("resultsTo(_:result_:)")));
 @end;
 
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol DKSKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<DKSKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<DKSKotlinCoroutineContextElement> _Nullable)getKey:(id<DKSKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<DKSKotlinCoroutineContext>)minusKeyKey:(id<DKSKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<DKSKotlinCoroutineContext>)plusContext:(id<DKSKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
+@end;
+
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol DKSKotlinCoroutineContextElement <DKSKotlinCoroutineContext>
+@required
+@property (readonly) id<DKSKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol DKSKotlinx_coroutines_coreJob <DKSKotlinCoroutineContextElement>
+@required
+- (id<DKSKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<DKSKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(DKSKotlinx_coroutines_coreCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (DKSKotlinx_coroutines_coreCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<DKSKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(DKSKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<DKSKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(DKSKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<DKSKotlinx_coroutines_coreJob>)plusOther:(id<DKSKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<DKSKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<DKSKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+@end;
+
+__attribute__((swift_name("KotlinFunction")))
+@protocol DKSKotlinFunction
+@required
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction1")))
+@protocol DKSKotlinSuspendFunction1 <DKSKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
+@end;
+
 __attribute__((swift_name("KotlinRuntimeException")))
 @interface DKSKotlinRuntimeException : DKSKotlinException
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -1188,21 +1333,6 @@ __attribute__((swift_name("KotlinUnit")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @end;
 
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol DKSKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<DKSKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<DKSKotlinCoroutineContextElement> _Nullable)getKey:(id<DKSKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<DKSKotlinCoroutineContext>)minusKeyKey:(id<DKSKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<DKSKotlinCoroutineContext>)plusContext:(id<DKSKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
-@end;
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol DKSKotlinCoroutineContextElement <DKSKotlinCoroutineContext>
-@required
-@property (readonly) id<DKSKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end;
-
 __attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
 @interface DKSKotlinAbstractCoroutineContextElement : DKSBase <DKSKotlinCoroutineContextElement>
 - (instancetype)initWithKey:(id<DKSKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
@@ -1225,9 +1355,20 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
 - (void)dispatchYieldContext:(id<DKSKotlinCoroutineContext>)context block:(id<DKSKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
 - (id<DKSKotlinContinuation>)interceptContinuationContinuation:(id<DKSKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
 - (BOOL)isDispatchNeededContext:(id<DKSKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
-- (DKSKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (DKSKotlinx_coroutines_coreCoroutineDispatcher *)plusOther_:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
 - (void)releaseInterceptedContinuationContinuation:(id<DKSKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol DKSKotlinx_coroutines_coreFlow
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<DKSKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
@@ -1535,6 +1676,45 @@ __attribute__((swift_name("Koin_coreKoinApplication")))
 @property (readonly) DKSKoin_coreKoin *koin __attribute__((swift_name("koin")));
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol DKSKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol DKSKotlinx_coroutines_coreChildHandle <DKSKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(DKSKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol DKSKotlinx_coroutines_coreChildJob <DKSKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<DKSKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCancellationException")))
+@interface DKSKotlinx_coroutines_coreCancellationException : DKSKotlinIllegalStateException
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(DKSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithCause:(DKSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end;
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol DKSKotlinSequence
+@required
+- (id<DKSKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol DKSKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<DKSKotlinx_coroutines_coreSelectInstance>)select block:(id<DKSKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end;
+
 __attribute__((swift_name("KotlinCoroutineContextKey")))
 @protocol DKSKotlinCoroutineContextKey
 @required
@@ -1551,6 +1731,17 @@ __attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
 @protocol DKSKotlinx_coroutines_coreRunnable
 @required
 - (void)run __attribute__((swift_name("run()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
+@protocol DKSKotlinx_coroutines_coreFlowCollector
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -1913,6 +2104,35 @@ __attribute__((swift_name("Koin_coreLevel")))
 + (DKSKotlinArray<DKSKoin_coreLevel *> *)values __attribute__((swift_name("values()")));
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol DKSKotlinx_coroutines_coreParentJob <DKSKotlinx_coroutines_coreJob>
+@required
+- (DKSKotlinx_coroutines_coreCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
+@protocol DKSKotlinx_coroutines_coreSelectInstance
+@required
+- (void)disposeOnSelectHandle:(id<DKSKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
+- (id _Nullable)performAtomicTrySelectDesc:(DKSKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
+- (void)resumeSelectWithExceptionException:(DKSKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
+- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
+- (id _Nullable)trySelectOtherOtherOp:(DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
+@property (readonly) id<DKSKotlinContinuation> completion __attribute__((swift_name("completion")));
+@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
+@end;
+
+__attribute__((swift_name("KotlinSuspendFunction0")))
+@protocol DKSKotlinSuspendFunction0 <DKSKotlinFunction>
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 @protocol DKSKotlinx_serialization_coreCompositeEncoder
 @required
@@ -2076,29 +2296,6 @@ __attribute__((swift_name("Ktor_httpURLBuilder")))
 @property DKSKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
 @property BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
 @property NSString * _Nullable user __attribute__((swift_name("user")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
-@protocol DKSKotlinx_coroutines_coreJob <DKSKotlinCoroutineContextElement>
-@required
-- (id<DKSKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<DKSKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause:(DKSKotlinx_coroutines_coreCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (DKSKotlinx_coroutines_coreCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<DKSKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(DKSKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<DKSKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(DKSKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<DKSKotlinx_coroutines_coreJob>)plusOther_:(id<DKSKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
-- (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<DKSKotlinSequence> children __attribute__((swift_name("children")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<DKSKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2318,11 +2515,6 @@ __attribute__((swift_name("Ktor_utilsPipelinePhase")))
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end;
 
-__attribute__((swift_name("KotlinFunction")))
-@protocol DKSKotlinFunction
-@required
-@end;
-
 __attribute__((swift_name("KotlinSuspendFunction2")))
 @protocol DKSKotlinSuspendFunction2 <DKSKotlinFunction>
 @required
@@ -2389,6 +2581,40 @@ __attribute__((swift_name("Koin_coreCallbacks")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) void (^ _Nullable onClose)(T _Nullable) __attribute__((swift_name("onClose")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
+@interface DKSKotlinx_coroutines_coreAtomicDesc : DKSBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(DKSKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)prepareOp:(DKSKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+@property DKSKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
+@interface DKSKotlinx_coroutines_coreOpDescriptor : DKSBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (BOOL)isEarlierThanThat:(DKSKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) DKSKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
+@interface DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : DKSKotlinx_coroutines_coreOpDescriptor
+- (instancetype)initWithAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
+@property (readonly) DKSKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
+@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
@@ -2479,45 +2705,6 @@ __attribute__((swift_name("Ktor_httpParametersBuilder")))
 - (instancetype)initWithSize:(int32_t)size __attribute__((swift_name("init(size:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (id<DKSKtor_httpParameters>)build __attribute__((swift_name("build()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol DKSKotlinx_coroutines_coreDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol DKSKotlinx_coroutines_coreChildHandle <DKSKotlinx_coroutines_coreDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(DKSKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol DKSKotlinx_coroutines_coreChildJob <DKSKotlinx_coroutines_coreJob>
-@required
-- (void)parentCancelledParentJob:(id<DKSKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCancellationException")))
-@interface DKSKotlinx_coroutines_coreCancellationException : DKSKotlinIllegalStateException
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(DKSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithCause:(DKSKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end;
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol DKSKotlinSequence
-@required
-- (id<DKSKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol DKSKotlinx_coroutines_coreSelectClause0
-@required
-- (void)registerSelectClause0Select:(id<DKSKotlinx_coroutines_coreSelectInstance>)select block:(id<DKSKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2709,17 +2896,6 @@ __attribute__((swift_name("Ktor_ioReadSession")))
 @property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
 @end;
 
-__attribute__((swift_name("KotlinSuspendFunction1")))
-@protocol DKSKotlinSuspendFunction1 <DKSKotlinFunction>
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeP1:(id _Nullable)p1 completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:completionHandler:)")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_ioByteOrder")))
 @interface DKSKtor_ioByteOrder : DKSKotlinEnum<DKSKtor_ioByteOrder *>
@@ -2737,6 +2913,61 @@ __attribute__((swift_name("KotlinKType")))
 @property (readonly) NSArray<DKSKotlinKTypeProjection *> *arguments __attribute__((swift_name("arguments")));
 @property (readonly) id<DKSKotlinKClassifier> _Nullable classifier __attribute__((swift_name("classifier")));
 @property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
+@interface DKSKotlinx_coroutines_coreAtomicOp<__contravariant T> : DKSKotlinx_coroutines_coreOpDescriptor
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
+- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
+@property (readonly) DKSKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
+@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
+@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
+@interface DKSKotlinx_coroutines_coreLockFreeLinkedListNode : DKSBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addLastNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
+- (BOOL)addLastIfNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(DKSBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
+- (BOOL)addLastIfPrevNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(DKSBoolean *(^)(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
+- (BOOL)addLastIfPrevAndIfNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(DKSBoolean *(^)(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(DKSBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
+- (BOOL)addOneIfEmptyNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
+- (DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<DKSKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
+- (DKSKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<DKSKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
+- (void)helpRemove __attribute__((swift_name("helpRemove()")));
+- (DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
+- (BOOL)remove __attribute__((swift_name("remove()")));
+- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(DKSBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
+- (DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
+@property (readonly, getter=next_) id _Nullable next __attribute__((swift_name("next")));
+@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
+@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
+@end;
+
+__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
+@interface DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : DKSKotlinx_coroutines_coreAtomicDesc
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeOp:(DKSKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
+- (id _Nullable)failureAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)affected __attribute__((swift_name("failure(affected:)")));
+- (void)finishOnSuccessAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
+- (void)finishPreparePrepareOp:(DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
+- (id _Nullable)onPreparePrepareOp:(DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
+- (void)onRemovedAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
+- (id _Nullable)prepareOp:(DKSKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
+- (BOOL)retryAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
+- (DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(DKSKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
+- (id)updatedNextAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @end;
 
 __attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
@@ -2802,35 +3033,6 @@ __attribute__((swift_name("Ktor_utilsMonth")))
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end;
 
-__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
-@protocol DKSKotlinx_coroutines_coreParentJob <DKSKotlinx_coroutines_coreJob>
-@required
-- (DKSKotlinx_coroutines_coreCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
-@protocol DKSKotlinx_coroutines_coreSelectInstance
-@required
-- (void)disposeOnSelectHandle:(id<DKSKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
-- (id _Nullable)performAtomicTrySelectDesc:(DKSKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
-- (void)resumeSelectWithExceptionException:(DKSKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
-- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
-- (id _Nullable)trySelectOtherOtherOp:(DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
-@property (readonly) id<DKSKotlinContinuation> completion __attribute__((swift_name("completion")));
-@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
-@end;
-
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol DKSKotlinSuspendFunction0 <DKSKotlinFunction>
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
-@end;
-
 __attribute__((swift_name("Ktor_ioObjectPool")))
 @protocol DKSKtor_ioObjectPool <DKSKtor_ioCloseable>
 @required
@@ -2875,129 +3077,6 @@ __attribute__((swift_name("KotlinKTypeProjection")))
 @property (readonly) DKSKotlinKVariance * _Nullable variance __attribute__((swift_name("variance")));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHeaderValueParam")))
-@interface DKSKtor_httpHeaderValueParam : DKSBase
-- (instancetype)initWithName:(NSString *)name value:(NSString *)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (DKSKtor_httpHeaderValueParam *)doCopyName:(NSString *)name value:(NSString *)value __attribute__((swift_name("doCopy(name:value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
-@interface DKSKotlinx_coroutines_coreAtomicDesc : DKSBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(DKSKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)prepareOp:(DKSKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-@property DKSKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
-@interface DKSKotlinx_coroutines_coreOpDescriptor : DKSBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isEarlierThanThat:(DKSKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) DKSKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
-@interface DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : DKSKotlinx_coroutines_coreOpDescriptor
-- (instancetype)initWithAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
-@property (readonly) DKSKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
-@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
-@end;
-
-__attribute__((swift_name("KotlinCharIterator")))
-@interface DKSKotlinCharIterator : DKSBase <DKSKotlinIterator>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (id)next __attribute__((swift_name("next()")));
-- (unichar)nextChar __attribute__((swift_name("nextChar()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinKVariance")))
-@interface DKSKotlinKVariance : DKSKotlinEnum<DKSKotlinKVariance *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) DKSKotlinKVariance *invariant __attribute__((swift_name("invariant")));
-@property (class, readonly) DKSKotlinKVariance *in __attribute__((swift_name("in")));
-@property (class, readonly) DKSKotlinKVariance *out __attribute__((swift_name("out")));
-+ (DKSKotlinArray<DKSKotlinKVariance *> *)values __attribute__((swift_name("values()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
-@interface DKSKotlinx_coroutines_coreAtomicOp<__contravariant T> : DKSKotlinx_coroutines_coreOpDescriptor
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
-- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
-@property (readonly) DKSKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
-@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
-@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
-@interface DKSKotlinx_coroutines_coreLockFreeLinkedListNode : DKSBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addLastNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
-- (BOOL)addLastIfNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(DKSBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
-- (BOOL)addLastIfPrevNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(DKSBoolean *(^)(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
-- (BOOL)addLastIfPrevAndIfNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(DKSBoolean *(^)(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(DKSBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
-- (BOOL)addOneIfEmptyNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
-- (DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<DKSKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
-- (DKSKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<DKSKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
-- (void)helpRemove __attribute__((swift_name("helpRemove()")));
-- (DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
-- (BOOL)remove __attribute__((swift_name("remove()")));
-- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(DKSBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
-- (DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next_) id _Nullable next __attribute__((swift_name("next")));
-@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
-@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
-@interface DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : DKSKotlinx_coroutines_coreAtomicDesc
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(DKSKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)failureAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)affected __attribute__((swift_name("failure(affected:)")));
-- (void)finishOnSuccessAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (id _Nullable)onPreparePrepareOp:(DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
-- (void)onRemovedAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
-- (id _Nullable)prepareOp:(DKSKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-- (BOOL)retryAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-- (DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(DKSKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@end;
-
 __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
 @interface DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
 - (instancetype)initWithQueue:(DKSKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
@@ -3029,6 +3108,40 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFi
 @property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @property (readonly) T _Nullable result __attribute__((swift_name("result")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeaderValueParam")))
+@interface DKSKtor_httpHeaderValueParam : DKSBase
+- (instancetype)initWithName:(NSString *)name value:(NSString *)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (DKSKtor_httpHeaderValueParam *)doCopyName:(NSString *)name value:(NSString *)value __attribute__((swift_name("doCopy(name:value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end;
+
+__attribute__((swift_name("KotlinCharIterator")))
+@interface DKSKotlinCharIterator : DKSBase <DKSKotlinIterator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (id)next __attribute__((swift_name("next()")));
+- (unichar)nextChar __attribute__((swift_name("nextChar()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKVariance")))
+@interface DKSKotlinKVariance : DKSKotlinEnum<DKSKotlinKVariance *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) DKSKotlinKVariance *invariant __attribute__((swift_name("invariant")));
+@property (class, readonly) DKSKotlinKVariance *in __attribute__((swift_name("in")));
+@property (class, readonly) DKSKotlinKVariance *out __attribute__((swift_name("out")));
++ (DKSKotlinArray<DKSKotlinKVariance *> *)values __attribute__((swift_name("values()")));
 @end;
 
 #pragma clang diagnostic pop

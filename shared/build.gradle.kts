@@ -48,6 +48,7 @@ kotlin {
                 implementation(Dependency.Settings.coroutines)
                 implementation(Dependency.Settings.noArg)
 
+
                 implementation(Dependency.SqlDelight.runtime)
                 implementation(Dependency.SqlDelight.coroutinesExtension)
 

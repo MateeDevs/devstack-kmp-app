@@ -63,6 +63,8 @@ private val commonModule = module {
     factory { UserCacheChangeFlowUseCase(get()) }
     factory { ReplaceUserCacheWithUseCase(get()) }
 
+    factory { GetDummyFlowUseCase() }
+
     // Repositories
     single<AuthRepository> { AuthRepositoryImpl(get()) }
     single<UserRepository> { UserRepositoryImpl(get(), get(), get()) }
