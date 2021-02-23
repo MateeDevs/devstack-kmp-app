@@ -2,20 +2,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "KmpShared",
+    name: "DevstackKmpShared",
     platforms: [
         .iOS(.v11)
     ],
     products: [
         .library(
-            name: "KmpShared",
-            targets: ["KmpShared"]
+            name: "DevstackKmpShared",
+            targets: ["DevstackKmpShared"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "KmpShared",
-            path: "./KmpShared.xcframework"
+            name: "DevstackKmpShared",
+            path: "./DevstackKmpShared.xcframework"
         ),
     ]
 )

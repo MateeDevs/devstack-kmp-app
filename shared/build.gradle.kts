@@ -37,6 +37,11 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
+                implementation(Dependency.Kotlin.Coroutines.common) {
+                    version {
+                        strictly(Dependency.Kotlin.Coroutines.version)
+                    }
+                }
                 implementation(Dependency.Koin.core)
 
                 implementation(Dependency.Settings.core)

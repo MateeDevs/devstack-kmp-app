@@ -1,5 +1,7 @@
 package cz.matee.devstack.kmp.shared.system
 
+import platform.Foundation.NSLog
+
 actual object Log : Logger {
 
     override fun d(tag: String, message: String) {

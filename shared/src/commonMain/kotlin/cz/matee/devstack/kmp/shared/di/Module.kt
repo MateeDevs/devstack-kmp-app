@@ -22,14 +22,25 @@ import cz.matee.devstack.kmp.shared.infrastructure.remote.UserService
 import cz.matee.devstack.kmp.shared.infrastructure.source.AuthSourceImpl
 import cz.matee.devstack.kmp.shared.infrastructure.source.UserLocalSourceImpl
 import cz.matee.devstack.kmp.shared.infrastructure.source.UserRemoteSourceImpl
+import org.koin.core.KoinApplication
 import org.koin.core.context.startKoin
 import org.koin.core.module.Module
 import org.koin.dsl.KoinAppDeclaration
 import org.koin.dsl.module
 
-fun initKoin(appDeclaration: KoinAppDeclaration = {}) = startKoin {
-    appDeclaration()
-    modules(commonModule, platformModule)
+fun initKoin(appDeclaration: KoinAppDeclaration = {}): KoinApplication {
+    val koinApplication = startKoin {
+        appDeclaration()
+        modules(commonModule, platformModule)
+    }
+
+    // Dummy initialization logic, making use of appModule declarations for demonstration purposes.
+    val koin = koinApplication.koin
+    val doOnStartup =
+        koin.getOrNull<() -> Unit>() // doOnStartup is a lambda which is implemented in Swift on iOS side
+    doOnStartup?.invoke()
+
+    return koinApplication
 }
 
 private val commonModule = module {

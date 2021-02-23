@@ -7,7 +7,7 @@ const val kotlinVersion = "1.4.31"
 
 object Project {
     const val shared = ":shared"
-    const val iosShared = "KmpShared"
+    const val iosShared = "DevstackKmpShared"
 
     object Android {
         private const val root = ":android"
