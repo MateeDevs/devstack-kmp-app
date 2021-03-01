@@ -3,6 +3,7 @@ package cz.matee.devstack.kmp.shared
 import cz.matee.devstack.kmp.shared.base.Result
 import cz.matee.devstack.kmp.shared.base.usecase.*
 import cz.matee.devstack.kmp.shared.domain.usecase.GetUserUseCase
+import cz.matee.devstack.kmp.shared.system.Log
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 import kotlin.coroutines.CoroutineContext
@@ -84,11 +85,17 @@ sealed class FlowWrapperParent<Params, T>(private val suspender: suspend (Params
         onThrow: (error: Throwable) -> Unit
     ): Job = iosDefaultScope.launch {
         suspender(params)
-            .onEach { onEach(it.freeze()) }
-            .catch { onThrow(it.freeze()) } // catch{} before onCompletion{} or else completion hits rx first and ends stream
-            .onCompletion { onComplete() }
-            .freeze()
-    }
+            .onEach {
+                onEach(it.freeze())
+            }
+            .catch {
+                onThrow(it.freeze())
+            } // catch{} before onCompletion{} or else completion hits rx first and ends stream
+            .onCompletion {
+                onComplete()
+            }
+            .collect()
+    }.freeze()
 }
 
 class FlowWrapper<Params : Any, Out : Any>(flow: suspend (Params?) -> Flow<Out>) :

@@ -103,7 +103,9 @@ sqldelight {
 multiplatformSwiftPackage {
     swiftToolsVersion("5.3")
     targetPlatforms {
-        iOS { v("11") }
+//        iOS { v("11") } // device + simulator
+//        targets("iosX64") { v("11") } // simulator
+        targets("iosArm64") { v("11") }
     }
     packageName(Project.iosShared)
 
