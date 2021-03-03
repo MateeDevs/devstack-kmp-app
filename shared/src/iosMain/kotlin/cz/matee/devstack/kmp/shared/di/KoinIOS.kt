@@ -20,6 +20,7 @@ fun initKoinIos(doOnStartup: () -> Unit) = initKoin {
 
 actual val platformModule = module {
     single<Config> { ConfigImpl() }
+    single { DriverFactory() }
 }
 
 fun Koin.get(objCClass: ObjCClass): Any {
