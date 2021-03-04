@@ -119,3 +119,23 @@ fun <Params : Any, Out : Any> UseCaseFlowResultNoParams<Out>.subscribe(
     FlowWrapper<Params, Result<Out>> { invoke() }.subscribe(
         onEach = onEach, onComplete = onComplete, onThrow = onThrow
     )
+
+
+fun <Params : Any, Out : Any> UseCaseFlow<Params, Out>.subscribe(
+    params: Params,
+    onEach: (item: Out) -> Unit,
+    onComplete: () -> Unit,
+    onThrow: (error: Throwable) -> Unit
+): Job =
+    FlowWrapper<Params, Out> { invoke(params) }.subscribe(
+        params, onEach, onComplete, onThrow
+    )
+
+fun <Params : Any, Out : Any> UseCaseFlowNoParams<Out>.subscribe(
+    onEach: (item: Out) -> Unit,
+    onComplete: () -> Unit,
+    onThrow: (error: Throwable) -> Unit
+): Job =
+    FlowWrapper<Params, Out> { invoke() }.subscribe(
+        onEach = onEach, onComplete = onComplete, onThrow = onThrow
+    )

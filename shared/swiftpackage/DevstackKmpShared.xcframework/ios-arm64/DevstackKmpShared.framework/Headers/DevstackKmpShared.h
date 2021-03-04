@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class DKSKotlinThrowable, DKSFlowWrapperParent<Params, T>, DKSSuspendWrapperParent<Params, Out>, DKSUser, DKSUserData, DKSUserPaging, DKSKotlinUnit, DKSResult<__covariant T>, DKSUserPagingParameters, DKSUserPagingRequest, DKSUserUpdateParameters, DKSUserUpdateRequest, DKSKotlinx_coroutines_coreCoroutineDispatcher, DKSUseCase<__contravariant Params, __covariant T>, DKSUseCaseResultNoParams<__covariant T>, DKSUseCaseFlowResultNoParams<__covariant T>, DKSUseCaseResult<__contravariant Params, __covariant T>, DKSGetUserUseCaseParams, DKSUseCaseNoParams<__covariant T>, DKSLoginUseCaseParams, DKSRegisterUseCaseParams, DKSLoginRequest, DKSRegistrationRequest, DKSUserDto, DKSUserPagingDto, DKSKtor_client_coreHttpClient, DKSLoginDto, DKSRegistrationDto, DKSKotlinArray<T>, DKSKotlinException, DKSKtor_httpUrl, DKSUserDataDto, DKSAuthService, DKSUserService, DKSErrorResult, DKSResultError<__covariant T>, DKSResultSuccess<__covariant T>, DKSAuthError, DKSBackendError, DKSCommonError, DKSResultType, DKSUseCaseFlowResult<__contravariant Params, __covariant T>, DKSKoin_coreDefinitionParameters, DKSKoin_coreScope, DKSKotlinLazyThreadSafetyMode, DKSKoin_coreModule, DKSKoin_coreLogger, DKSKoin_corePropertyRegistry, DKSKoin_coreScopeRegistry, DKSKoin_coreKoin, DKSKoin_coreKoinApplication, DKSKotlinx_coroutines_coreCancellationException, DKSKotlinRuntimeException, DKSKotlinIllegalStateException, DKSKotlinAbstractCoroutineContextElement, DKSKtor_client_coreHttpClientEngineConfig, DKSKtor_client_coreHttpClientConfig<T>, DKSKtor_client_coreHttpRequestBuilder, DKSKtor_client_coreHttpClientCall, DKSKtor_client_coreHttpReceivePipeline, DKSKtor_client_coreHttpRequestPipeline, DKSKtor_client_coreHttpResponsePipeline, DKSKtor_client_coreHttpSendPipeline, DKSKtor_httpURLProtocol, DKSKoin_coreScopeDefinition, DKSKoin_coreBeanDefinition<T>, DKSKotlinEnum<E>, DKSKoin_coreOptions, DKSKoin_coreScopeDSL, DKSKoin_coreLevel, DKSKotlinx_serialization_coreSerializersModule, DKSKotlinx_serialization_coreSerialKind, DKSKotlinNothing, DKSKtor_client_coreHttpRequestData, DKSKtor_client_coreHttpResponseData, DKSKtor_client_coreProxyConfig, DKSKtor_httpHeadersBuilder, DKSKtor_httpURLBuilder, DKSKtor_httpHttpMethod, DKSKtor_client_coreTypeInfo, DKSKtor_client_coreHttpResponse, DKSKtor_utilsAttributeKey<T>, DKSKtor_utilsPipelinePhase, DKSKtor_utilsPipeline<TSubject, TContext>, DKSKtor_client_coreHttpResponseContainer, DKSKoin_coreKind, DKSKoin_coreProperties, DKSKoin_coreCallbacks<T>, DKSKotlinx_coroutines_coreAtomicDesc, DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, DKSKtor_httpOutgoingContent, DKSKtor_httpHttpStatusCode, DKSKtor_utilsGMTDate, DKSKtor_httpHttpProtocolVersion, DKSKtor_utilsStringValuesBuilder, DKSKtor_httpParametersBuilder, DKSKtor_ioMemory, DKSKtor_ioIoBuffer, DKSKotlinByteArray, DKSKtor_ioByteReadPacket, DKSKtor_ioByteOrder, DKSKotlinx_coroutines_coreAtomicOp<__contravariant T>, DKSKotlinx_coroutines_coreOpDescriptor, DKSKotlinx_coroutines_coreLockFreeLinkedListNode, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, DKSKtor_httpContentType, DKSKtor_utilsWeekDay, DKSKtor_utilsMonth, DKSKtor_ioBuffer, DKSKtor_ioChunkBuffer, DKSKotlinCharArray, DKSKotlinByteIterator, DKSKtor_ioAbstractInput, DKSKtor_ioByteReadPacketBase, DKSKtor_ioByteReadPacketPlatformBase, DKSKotlinKTypeProjection, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, DKSKtor_httpHeaderValueParam, DKSKtor_httpHeaderValueWithParameters, DKSKotlinCharIterator, DKSKotlinKVariance;
+@class DKSKotlinThrowable, DKSFlowWrapperParent<Params, T>, DKSSuspendWrapperParent<Params, Out>, DKSUser, DKSUserData, DKSUserEntity, DKSUserPaging, DKSKotlinUnit, DKSResult<__covariant T>, DKSUserPagingParameters, DKSUserPagingRequest, DKSUserUpdateParameters, DKSUserUpdateRequest, DKSKotlinx_coroutines_coreCoroutineDispatcher, DKSUseCase<__contravariant Params, __covariant T>, DKSUseCaseResultNoParams<__covariant T>, DKSUseCaseFlowResultNoParams<__covariant T>, DKSUseCaseResult<__contravariant Params, __covariant T>, DKSUseCaseFlowResult<__contravariant Params, __covariant T>, DKSGetUserUseCaseParams, DKSUseCaseFlowNoParams<__covariant T>, DKSUseCaseNoParams<__covariant T>, DKSLoginUseCaseParams, DKSRegisterUseCaseParams, DKSLoginRequest, DKSRegistrationRequest, DKSUserDto, DKSUserPagingDto, DKSKtor_client_coreHttpClient, DKSLoginDto, DKSRegistrationDto, DKSKotlinArray<T>, DKSKotlinException, DKSKtor_httpUrl, DKSUserDataDto, DKSUserDetail, DKSRuntimeQuery<__covariant RowType>, DKSAuthService, DKSUserService, DKSErrorResult, DKSResultError<__covariant T>, DKSResultSuccess<__covariant T>, DKSAuthError, DKSBackendError, DKSCommonError, DKSResultType, DKSUseCaseFlow<__contravariant Params, __covariant T>, DKSKoin_coreDefinitionParameters, DKSKoin_coreScope, DKSKotlinLazyThreadSafetyMode, DKSKoin_coreModule, DKSKoin_coreLogger, DKSKoin_corePropertyRegistry, DKSKoin_coreScopeRegistry, DKSKoin_coreKoin, DKSKoin_coreKoinApplication, DKSDriverFactory, DKSRuntimeTransacterTransaction, DKSKotlinx_coroutines_coreCancellationException, DKSKotlinRuntimeException, DKSKotlinIllegalStateException, DKSKotlinAbstractCoroutineContextElement, DKSKtor_client_coreHttpClientEngineConfig, DKSKtor_client_coreHttpClientConfig<T>, DKSKtor_client_coreHttpRequestBuilder, DKSKtor_client_coreHttpClientCall, DKSKtor_client_coreHttpReceivePipeline, DKSKtor_client_coreHttpRequestPipeline, DKSKtor_client_coreHttpResponsePipeline, DKSKtor_client_coreHttpSendPipeline, DKSKtor_httpURLProtocol, DKSKoin_coreScopeDefinition, DKSKoin_coreBeanDefinition<T>, DKSKotlinEnum<E>, DKSKoin_coreOptions, DKSKoin_coreScopeDSL, DKSKoin_coreLevel, DKSKotlinByteArray, DKSKotlinx_serialization_coreSerializersModule, DKSKotlinx_serialization_coreSerialKind, DKSKotlinNothing, DKSKtor_client_coreHttpRequestData, DKSKtor_client_coreHttpResponseData, DKSKtor_client_coreProxyConfig, DKSKtor_httpHeadersBuilder, DKSKtor_httpURLBuilder, DKSKtor_httpHttpMethod, DKSKtor_client_coreTypeInfo, DKSKtor_client_coreHttpResponse, DKSKtor_utilsAttributeKey<T>, DKSKtor_utilsPipelinePhase, DKSKtor_utilsPipeline<TSubject, TContext>, DKSKtor_client_coreHttpResponseContainer, DKSKoin_coreKind, DKSKoin_coreProperties, DKSKoin_coreCallbacks<T>, DKSKotlinByteIterator, DKSKotlinx_coroutines_coreAtomicDesc, DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, DKSKtor_httpOutgoingContent, DKSKtor_httpHttpStatusCode, DKSKtor_utilsGMTDate, DKSKtor_httpHttpProtocolVersion, DKSKtor_utilsStringValuesBuilder, DKSKtor_httpParametersBuilder, DKSKtor_ioMemory, DKSKtor_ioIoBuffer, DKSKtor_ioByteReadPacket, DKSKtor_ioByteOrder, DKSKotlinx_coroutines_coreAtomicOp<__contravariant T>, DKSKotlinx_coroutines_coreOpDescriptor, DKSKotlinx_coroutines_coreLockFreeLinkedListNode, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, DKSKtor_httpContentType, DKSKtor_utilsWeekDay, DKSKtor_utilsMonth, DKSKtor_ioBuffer, DKSKtor_ioChunkBuffer, DKSKotlinCharArray, DKSKtor_ioAbstractInput, DKSKtor_ioByteReadPacketBase, DKSKtor_ioByteReadPacketPlatformBase, DKSKotlinKTypeProjection, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, DKSKtor_httpHeaderValueParam, DKSKtor_httpHeaderValueWithParameters, DKSKotlinCharIterator, DKSKotlinKVariance;
 
-@protocol DKSKotlinx_coroutines_coreJob, DKSKotlinSuspendFunction1, DKSAuthRepository, DKSKotlinx_coroutines_coreFlow, DKSUserRepository, DKSAuthDao, DKSUserRemoteSource, DKSKotlinx_serialization_coreKSerializer, DKSConfig, DKSLogger, DKSKotlinKClass, DKSKoin_coreKoinScopeComponent, DKSKoin_coreQualifier, DKSKotlinLazy, DKSKotlinx_coroutines_coreCoroutineScope, DKSErrorMessageProvider, DKSKotlinx_coroutines_coreChildHandle, DKSKotlinx_coroutines_coreChildJob, DKSKotlinx_coroutines_coreDisposableHandle, DKSKotlinSequence, DKSKotlinx_coroutines_coreSelectClause0, DKSKotlinCoroutineContextKey, DKSKotlinCoroutineContextElement, DKSKotlinCoroutineContext, DKSKotlinFunction, DKSKotlinContinuation, DKSKotlinContinuationInterceptor, DKSKotlinx_coroutines_coreRunnable, DKSKotlinx_coroutines_coreFlowCollector, DKSKotlinx_serialization_coreEncoder, DKSKotlinx_serialization_coreSerialDescriptor, DKSKotlinx_serialization_coreSerializationStrategy, DKSKotlinx_serialization_coreDecoder, DKSKotlinx_serialization_coreDeserializationStrategy, DKSKtor_ioCloseable, DKSKtor_client_coreHttpClientEngine, DKSKtor_client_coreHttpClientEngineCapability, DKSKtor_utilsAttributes, DKSKotlinIterator, DKSKtor_httpParameters, DKSKotlinKDeclarationContainer, DKSKotlinKAnnotatedElement, DKSKotlinKClassifier, DKSKoin_coreScopeCallback, DKSKoin_coreKoinComponent, DKSKotlinComparable, DKSKotlinx_coroutines_coreParentJob, DKSKotlinx_coroutines_coreSelectInstance, DKSKotlinSuspendFunction0, DKSKotlinx_serialization_coreCompositeEncoder, DKSKotlinAnnotation, DKSKotlinx_serialization_coreCompositeDecoder, DKSKtor_client_coreHttpClientFeature, DKSKtor_httpHttpMessageBuilder, DKSKtor_ioByteReadChannel, DKSKtor_client_coreHttpRequest, DKSKotlinSuspendFunction2, DKSKotlinMapEntry, DKSKtor_utilsStringValues, DKSKotlinx_serialization_coreSerializersModuleCollector, DKSKtor_httpHeaders, DKSKtor_ioReadSession, DKSKotlinAppendable, DKSKotlinKType, DKSKtor_httpHttpMessage, DKSKtor_ioObjectPool, DKSKtor_ioInput, DKSKtor_ioOutput;
+@protocol DKSUserDetailQueries, DKSUserQueries, DKSRuntimeTransactionWithoutReturn, DKSRuntimeTransactionWithReturn, DKSRuntimeTransacter, DKSDatabase, DKSRuntimeSqlDriver, DKSRuntimeSqlDriverSchema, DKSKotlinx_coroutines_coreJob, DKSKotlinSuspendFunction1, DKSKotlinx_coroutines_coreFlow, DKSAuthRepository, DKSUserRepository, DKSAuthDao, DKSUserRemoteSource, DKSUserLocalSource, DKSKotlinx_serialization_coreKSerializer, DKSConfig, DKSLogger, DKSKotlinKClass, DKSKoin_coreKoinScopeComponent, DKSKoin_coreQualifier, DKSKotlinLazy, DKSKotlinx_coroutines_coreCoroutineScope, DKSErrorMessageProvider, DKSRuntimeTransactionCallbacks, DKSRuntimeSqlPreparedStatement, DKSRuntimeSqlCursor, DKSRuntimeCloseable, DKSKotlinx_coroutines_coreChildHandle, DKSKotlinx_coroutines_coreChildJob, DKSKotlinx_coroutines_coreDisposableHandle, DKSKotlinSequence, DKSKotlinx_coroutines_coreSelectClause0, DKSKotlinCoroutineContextKey, DKSKotlinCoroutineContextElement, DKSKotlinCoroutineContext, DKSKotlinFunction, DKSKotlinx_coroutines_coreFlowCollector, DKSKotlinContinuation, DKSKotlinContinuationInterceptor, DKSKotlinx_coroutines_coreRunnable, DKSKotlinx_serialization_coreEncoder, DKSKotlinx_serialization_coreSerialDescriptor, DKSKotlinx_serialization_coreSerializationStrategy, DKSKotlinx_serialization_coreDecoder, DKSKotlinx_serialization_coreDeserializationStrategy, DKSKtor_ioCloseable, DKSKtor_client_coreHttpClientEngine, DKSKtor_client_coreHttpClientEngineCapability, DKSKtor_utilsAttributes, DKSKotlinIterator, DKSKtor_httpParameters, DKSRuntimeQueryListener, DKSKotlinKDeclarationContainer, DKSKotlinKAnnotatedElement, DKSKotlinKClassifier, DKSKoin_coreScopeCallback, DKSKoin_coreKoinComponent, DKSKotlinComparable, DKSKotlinx_coroutines_coreParentJob, DKSKotlinx_coroutines_coreSelectInstance, DKSKotlinSuspendFunction0, DKSKotlinx_serialization_coreCompositeEncoder, DKSKotlinAnnotation, DKSKotlinx_serialization_coreCompositeDecoder, DKSKtor_client_coreHttpClientFeature, DKSKtor_httpHttpMessageBuilder, DKSKtor_ioByteReadChannel, DKSKtor_client_coreHttpRequest, DKSKotlinSuspendFunction2, DKSKotlinMapEntry, DKSKtor_utilsStringValues, DKSKotlinx_serialization_coreSerializersModuleCollector, DKSKtor_httpHeaders, DKSKtor_ioReadSession, DKSKotlinAppendable, DKSKotlinKType, DKSKtor_httpHttpMessage, DKSKtor_ioObjectPool, DKSKtor_ioInput, DKSKtor_ioOutput;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -138,6 +138,30 @@ __attribute__((swift_name("KotlinBoolean")))
 + (instancetype)numberWithBool:(BOOL)value;
 @end;
 
+__attribute__((swift_name("RuntimeTransacter")))
+@protocol DKSRuntimeTransacter
+@required
+- (void)transactionNoEnclosing:(BOOL)noEnclosing body:(void (^)(id<DKSRuntimeTransactionWithoutReturn>))body __attribute__((swift_name("transaction(noEnclosing:body:)")));
+- (id _Nullable)transactionWithResultNoEnclosing:(BOOL)noEnclosing bodyWithReturn:(id _Nullable (^)(id<DKSRuntimeTransactionWithReturn>))bodyWithReturn __attribute__((swift_name("transactionWithResult(noEnclosing:bodyWithReturn:)")));
+@end;
+
+__attribute__((swift_name("Database")))
+@protocol DKSDatabase <DKSRuntimeTransacter>
+@required
+@property (readonly) id<DKSUserDetailQueries> userDetailQueries __attribute__((swift_name("userDetailQueries")));
+@property (readonly) id<DKSUserQueries> userQueries __attribute__((swift_name("userQueries")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DatabaseCompanion")))
+@interface DKSDatabaseCompanion : DKSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<DKSDatabase>)invokeDriver:(id<DKSRuntimeSqlDriver>)driver __attribute__((swift_name("invoke(driver:)")));
+@property (readonly) id<DKSRuntimeSqlDriverSchema> Schema __attribute__((swift_name("Schema")));
+@end;
+
 __attribute__((swift_name("FlowWrapperParent")))
 @interface DKSFlowWrapperParent<Params, T> : DKSBase
 - (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(Params _Nullable)params onEach:(void (^)(T _Nullable))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onEach:onComplete:onThrow:)")));
@@ -195,6 +219,8 @@ __attribute__((swift_name("UserData")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) DKSUserEntity *asEntityWithPlaceholders __attribute__((swift_name("asEntityWithPlaceholders")));
+@property (readonly) DKSUser *asUserWithPlaceholders __attribute__((swift_name("asUserWithPlaceholders")));
 @property (readonly) NSString *email __attribute__((swift_name("email")));
 @property (readonly) NSString *firstName __attribute__((swift_name("firstName")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
@@ -267,25 +293,38 @@ __attribute__((swift_name("UserRepository")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUserWithCompletionHandler:(void (^)(DKSResult<DKSUser *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(completionHandler:)")));
+- (void)getUserWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUserId:(NSString *)id completionHandler:(void (^)(DKSResult<DKSUser *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+- (void)getUserId:(NSString *)id completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+- (id<DKSKotlinx_coroutines_coreFlow>)getUsers __attribute__((swift_name("getUsers()")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUserPaging *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsers(parameters:completionHandler:)")));
+- (void)getUsersLocalParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsersLocal(parameters:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUsersRemoteParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUserPaging *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsersRemote(parameters:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)updateUserParameters:(DKSUserUpdateParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUser *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateUser(parameters:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateUsersLocalUsers:(NSArray<DKSUser *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateUsersLocal(users:completionHandler:)")));
 @property (readonly) BOOL isUserLoggedIn __attribute__((swift_name("isUserLoggedIn")));
 @end;
 
@@ -380,8 +419,8 @@ __attribute__((swift_name("GetDummyFlowUseCase")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetLoggedInUserUseCase")))
-@interface DKSGetLoggedInUserUseCase : DKSUseCaseResultNoParams<DKSUser *>
+__attribute__((swift_name("GetLocalUsersUseCase")))
+@interface DKSGetLocalUsersUseCase : DKSUseCase<DKSUserPagingParameters *, id<DKSKotlinx_coroutines_coreFlow>>
 - (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 
@@ -389,7 +428,20 @@ __attribute__((swift_name("GetLoggedInUserUseCase")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(DKSResult<DKSUser *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+- (void)doWorkParams:(DKSUserPagingParameters *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetLoggedInUserUseCase")))
+@interface DKSGetLoggedInUserUseCase : DKSUseCaseFlowResultNoParams<DKSUser *>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("UseCaseResult")))
@@ -398,8 +450,8 @@ __attribute__((swift_name("UseCaseResult")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetPagedUsersUseCase")))
-@interface DKSGetPagedUsersUseCase : DKSUseCaseResult<DKSUserPagingParameters *, DKSUserPaging *>
+__attribute__((swift_name("GetRemoteUsersUseCase")))
+@interface DKSGetRemoteUsersUseCase : DKSUseCaseResult<DKSUserPagingParameters *, DKSUserPaging *>
 - (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 
@@ -410,9 +462,14 @@ __attribute__((swift_name("GetPagedUsersUseCase")))
 - (void)doWorkParams:(DKSUserPagingParameters *)params completionHandler:(void (^)(DKSResult<DKSUserPaging *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
 @end;
 
+__attribute__((swift_name("UseCaseFlowResult")))
+@interface DKSUseCaseFlowResult<__contravariant Params, __covariant T> : DKSUseCase<Params, id<DKSKotlinx_coroutines_coreFlow>>
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GetUserUseCase")))
-@interface DKSGetUserUseCase : DKSUseCaseResult<DKSGetUserUseCaseParams *, DKSUser *>
+@interface DKSGetUserUseCase : DKSUseCaseFlowResult<DKSGetUserUseCaseParams *, DKSUser *>
 - (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 
@@ -420,7 +477,7 @@ __attribute__((swift_name("GetUserUseCase")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doWorkParams:(DKSGetUserUseCaseParams *)params completionHandler:(void (^)(DKSResult<DKSUser *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+- (void)doWorkParams:(DKSGetUserUseCaseParams *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -428,6 +485,30 @@ __attribute__((swift_name("GetUserUseCase.Params")))
 @interface DKSGetUserUseCaseParams : DKSBase
 - (instancetype)initWithUserId:(NSString *)userId __attribute__((swift_name("init(userId:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) NSString *userId __attribute__((swift_name("userId")));
+@end;
+
+__attribute__((swift_name("UseCaseFlowNoParams")))
+@interface DKSUseCaseFlowNoParams<__covariant T> : DKSUseCase<DKSKotlinUnit *, id<DKSKotlinx_coroutines_coreFlow>>
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetUsersUseCase")))
+@interface DKSGetUsersUseCase : DKSUseCaseFlowNoParams<NSArray<DKSUser *> *>
+- (instancetype)initWithRepository:(id<DKSUserRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("UseCaseNoParams")))
@@ -526,33 +607,59 @@ __attribute__((swift_name("UpdateUserUseCase")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UpdateUsersLocalUseCase")))
+@interface DKSUpdateUsersLocalUseCase : DKSUseCase<NSArray<DKSUser *> *, DKSKotlinUnit *>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(NSArray<DKSUser *> *)params completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserRepositoryImpl")))
 @interface DKSUserRepositoryImpl : DKSBase <DKSUserRepository>
-- (instancetype)initWithAuthDao:(id<DKSAuthDao>)authDao remoteSource:(id<DKSUserRemoteSource>)remoteSource __attribute__((swift_name("init(authDao:remoteSource:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithAuthDao:(id<DKSAuthDao>)authDao remoteSource:(id<DKSUserRemoteSource>)remoteSource localSource:(id<DKSUserLocalSource>)localSource __attribute__((swift_name("init(authDao:remoteSource:localSource:)"))) __attribute__((objc_designated_initializer));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUserWithCompletionHandler:(void (^)(DKSResult<DKSUser *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(completionHandler:)")));
+- (void)getUserWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUserId:(NSString *)id completionHandler:(void (^)(DKSResult<DKSUser *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+- (void)getUserId:(NSString *)id completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+- (id<DKSKotlinx_coroutines_coreFlow>)getUsers __attribute__((swift_name("getUsers()")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUserPaging *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsers(parameters:completionHandler:)")));
+- (void)getUsersLocalParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsersLocal(parameters:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUsersRemoteParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUserPaging *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsersRemote(parameters:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)updateUserParameters:(DKSUserUpdateParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUser *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateUser(parameters:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateUsersLocalUsers:(NSArray<DKSUser *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateUsersLocal(users:completionHandler:)")));
 @property (readonly) BOOL isUserLoggedIn __attribute__((swift_name("isUserLoggedIn")));
 @end;
 
@@ -604,6 +711,42 @@ __attribute__((swift_name("RegistrationRequest.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 - (id<DKSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((swift_name("UserLocalSource")))
+@protocol DKSUserLocalSource
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserId:(NSString *)id completionHandler:(void (^)(DKSUserEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserCountWithCompletionHandler:(void (^)(DKSLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserCount(completionHandler:)")));
+- (id<DKSKotlinx_coroutines_coreFlow>)getUsers __attribute__((swift_name("getUsers()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUsersPaging:(DKSUserPagingRequest *)paging completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsers(paging:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateOrCreateUserEntity:(DKSUserEntity *)userEntity completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(userEntity:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateOrCreateUsers:(NSArray<DKSUserEntity *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(users:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -930,6 +1073,77 @@ __attribute__((swift_name("AuthDao")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DriverFactory")))
+@interface DKSDriverFactory : DKSBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (id<DKSRuntimeSqlDriver>)createDriverDbName:(NSString *)dbName __attribute__((swift_name("createDriver(dbName:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserDetail")))
+@interface DKSUserDetail : DKSBase
+- (instancetype)initWithId:(NSString *)id phone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio __attribute__((swift_name("init(id:phone:bio:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (DKSUserDetail *)doCopyId:(NSString *)id phone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio __attribute__((swift_name("doCopy(id:phone:bio:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable bio __attribute__((swift_name("bio")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable phone __attribute__((swift_name("phone")));
+@end;
+
+__attribute__((swift_name("UserDetailQueries")))
+@protocol DKSUserDetailQueries <DKSRuntimeTransacter>
+@required
+- (void)deleteId:(NSString *)id __attribute__((swift_name("delete(id:)")));
+- (DKSRuntimeQuery<DKSUserDetail *> *)getId:(NSString *)id __attribute__((swift_name("get(id:)")));
+- (DKSRuntimeQuery<id> *)getId:(NSString *)id mapper:(id (^)(NSString *, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("get(id:mapper:)")));
+- (void)insertUserDetail:(DKSUserDetail *)UserDetail __attribute__((swift_name("insert(UserDetail:)")));
+- (void)updatePhone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio id:(NSString *)id __attribute__((swift_name("update(phone:bio:id:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserEntity")))
+@interface DKSUserEntity : DKSBase
+- (instancetype)initWithId:(NSString *)id email:(NSString *)email firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName phone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio __attribute__((swift_name("init(id:email:firstName:lastName:phone:bio:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (NSString * _Nullable)component5 __attribute__((swift_name("component5()")));
+- (NSString * _Nullable)component6 __attribute__((swift_name("component6()")));
+- (DKSUserEntity *)doCopyId:(NSString *)id email:(NSString *)email firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName phone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio __attribute__((swift_name("doCopy(id:email:firstName:lastName:phone:bio:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable bio __attribute__((swift_name("bio")));
+@property (readonly) NSString *email __attribute__((swift_name("email")));
+@property (readonly) NSString * _Nullable firstName __attribute__((swift_name("firstName")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable lastName __attribute__((swift_name("lastName")));
+@property (readonly) NSString * _Nullable phone __attribute__((swift_name("phone")));
+@end;
+
+__attribute__((swift_name("UserQueries")))
+@protocol DKSUserQueries <DKSRuntimeTransacter>
+@required
+- (void)deleteUserId:(NSString *)id __attribute__((swift_name("deleteUser(id:)")));
+- (DKSRuntimeQuery<DKSUserEntity *> *)getAllUsers __attribute__((swift_name("getAllUsers()")));
+- (DKSRuntimeQuery<id> *)getAllUsersMapper:(id (^)(NSString *, NSString *, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("getAllUsers(mapper:)")));
+- (DKSRuntimeQuery<DKSUserEntity *> *)getUserId:(NSString *)id __attribute__((swift_name("getUser(id:)")));
+- (DKSRuntimeQuery<id> *)getUserId:(NSString *)id mapper:(id (^)(NSString *, NSString *, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("getUser(id:mapper:)")));
+- (DKSRuntimeQuery<DKSLong *> *)getUserCount __attribute__((swift_name("getUserCount()")));
+- (DKSRuntimeQuery<DKSUserEntity *> *)getUsersPaginatedLimit:(int64_t)limit offset:(int64_t)offset __attribute__((swift_name("getUsersPaginated(limit:offset:)")));
+- (DKSRuntimeQuery<id> *)getUsersPaginatedLimit:(int64_t)limit offset:(int64_t)offset mapper:(id (^)(NSString *, NSString *, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("getUsersPaginated(limit:offset:mapper:)")));
+- (void)insertUserUserEntity:(DKSUserEntity *)UserEntity __attribute__((swift_name("insertUser(UserEntity:)")));
+- (void)updateUserFirstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName phone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio id:(NSString *)id __attribute__((swift_name("updateUser(firstName:lastName:phone:bio:id:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AuthSourceImpl")))
 @interface DKSAuthSourceImpl : DKSBase
 - (instancetype)initWithService:(DKSAuthService *)service authDao:(id<DKSAuthDao>)authDao __attribute__((swift_name("init(service:authDao:)"))) __attribute__((objc_designated_initializer));
@@ -951,6 +1165,43 @@ __attribute__((swift_name("AuthSourceImpl")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)registerRequest:(DKSRegistrationRequest *)request completionHandler:(void (^)(DKSResult<DKSRegistrationDto *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("register(request:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserLocalSourceImpl")))
+@interface DKSUserLocalSourceImpl : DKSBase <DKSUserLocalSource>
+- (instancetype)initWithUserQueries:(id<DKSUserQueries>)userQueries __attribute__((swift_name("init(userQueries:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserId:(NSString *)id completionHandler:(void (^)(DKSUserEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserCountWithCompletionHandler:(void (^)(DKSLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserCount(completionHandler:)")));
+- (id<DKSKotlinx_coroutines_coreFlow>)getUsers __attribute__((swift_name("getUsers()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUsersPaging:(DKSUserPagingRequest *)paging completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsers(paging:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateOrCreateUserEntity:(DKSUserEntity *)user completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(userEntity:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateOrCreateUsers:(NSArray<DKSUserEntity *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(users:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1087,8 +1338,8 @@ __attribute__((swift_name("Success")))
 + (instancetype)success __attribute__((swift_name("init()")));
 @end;
 
-__attribute__((swift_name("UseCaseFlowResult")))
-@interface DKSUseCaseFlowResult<__contravariant Params, __covariant T> : DKSUseCase<Params, id<DKSKotlinx_coroutines_coreFlow>>
+__attribute__((swift_name("UseCaseFlow")))
+@interface DKSUseCaseFlow<__contravariant Params, __covariant T> : DKSUseCase<Params, id<DKSKotlinx_coroutines_coreFlow>>
 - (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
 @end;
 
@@ -1129,6 +1380,14 @@ __attribute__((swift_name("Log")))
 - (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(id)params onSuccess:(void (^)(id))onSuccess onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onSuccess:onThrow:)")));
 @end;
 
+@interface DKSUseCaseFlow (Extensions)
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(id)params onEach:(void (^)(id))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onEach:onComplete:onThrow:)")));
+@end;
+
+@interface DKSUseCaseFlowNoParams (Extensions)
+- (id<DKSKotlinx_coroutines_coreJob>)subscribeOnEach:(void (^)(id))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(onEach:onComplete:onThrow:)")));
+@end;
+
 @interface DKSUseCaseFlowResult (Extensions)
 - (id<DKSKotlinx_coroutines_coreJob>)subscribeParams:(id)params onEach:(void (^)(DKSResult<id> *))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(params:onEach:onComplete:onThrow:)")));
 @end;
@@ -1147,6 +1406,14 @@ __attribute__((swift_name("Log")))
 
 @interface DKSUseCaseResultNoParams (Extensions)
 - (id<DKSKotlinx_coroutines_coreJob>)subscribeOnSuccess:(void (^)(DKSResult<id> *))onSuccess onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(onSuccess:onThrow:)")));
+@end;
+
+@interface DKSUserEntity (Extensions)
+@property (readonly) DKSUser *asDomain __attribute__((swift_name("asDomain")));
+@end;
+
+@interface DKSUser (Extensions)
+@property (readonly) DKSUserEntity *asEntity __attribute__((swift_name("asEntity")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1224,6 +1491,12 @@ __attribute__((swift_name("AuthDaoKt")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DatabaseKt")))
+@interface DKSDatabaseKt : DKSBase
++ (id<DKSDatabase>)createDatabaseDriverFactory:(DKSDriverFactory *)driverFactory __attribute__((swift_name("createDatabase(driverFactory:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MessagesKt")))
 @interface DKSMessagesKt : DKSBase
 + (NSString *)getMessage:(id<DKSErrorMessageProvider>)receiver error:(DKSErrorResult *)error defMessage:(NSString * _Nullable)defMessage __attribute__((swift_name("getMessage(_:error:defMessage:)")));
@@ -1241,6 +1514,50 @@ __attribute__((swift_name("ResultToKt")))
 @interface DKSResultToKt : DKSBase
 + (DKSResult<id> *)resultsTo:(id)receiver result:(DKSResultType *)result __attribute__((swift_name("resultsTo(_:result:)")));
 + (DKSResult<id> *)resultsTo:(id _Nullable)receiver result_:(DKSErrorResult *)result __attribute__((swift_name("resultsTo(_:result_:)")));
+@end;
+
+__attribute__((swift_name("RuntimeTransactionCallbacks")))
+@protocol DKSRuntimeTransactionCallbacks
+@required
+- (void)afterCommitFunction:(void (^)(void))function __attribute__((swift_name("afterCommit(function:)")));
+- (void)afterRollbackFunction:(void (^)(void))function __attribute__((swift_name("afterRollback(function:)")));
+@end;
+
+__attribute__((swift_name("RuntimeTransactionWithoutReturn")))
+@protocol DKSRuntimeTransactionWithoutReturn <DKSRuntimeTransactionCallbacks>
+@required
+- (void)rollback __attribute__((swift_name("rollback()")));
+- (void)transactionBody:(void (^)(id<DKSRuntimeTransactionWithoutReturn>))body __attribute__((swift_name("transaction(body:)")));
+@end;
+
+__attribute__((swift_name("RuntimeTransactionWithReturn")))
+@protocol DKSRuntimeTransactionWithReturn <DKSRuntimeTransactionCallbacks>
+@required
+- (void)rollbackReturnValue:(id _Nullable)returnValue __attribute__((swift_name("rollback(returnValue:)")));
+- (id _Nullable)transactionBody_:(id _Nullable (^)(id<DKSRuntimeTransactionWithReturn>))body __attribute__((swift_name("transaction(body_:)")));
+@end;
+
+__attribute__((swift_name("RuntimeCloseable")))
+@protocol DKSRuntimeCloseable
+@required
+- (void)close __attribute__((swift_name("close()")));
+@end;
+
+__attribute__((swift_name("RuntimeSqlDriver")))
+@protocol DKSRuntimeSqlDriver <DKSRuntimeCloseable>
+@required
+- (DKSRuntimeTransacterTransaction * _Nullable)currentTransaction __attribute__((swift_name("currentTransaction()")));
+- (void)executeIdentifier:(DKSInt * _Nullable)identifier sql:(NSString *)sql parameters:(int32_t)parameters binders:(void (^ _Nullable)(id<DKSRuntimeSqlPreparedStatement>))binders __attribute__((swift_name("execute(identifier:sql:parameters:binders:)")));
+- (id<DKSRuntimeSqlCursor>)executeQueryIdentifier:(DKSInt * _Nullable)identifier sql:(NSString *)sql parameters:(int32_t)parameters binders:(void (^ _Nullable)(id<DKSRuntimeSqlPreparedStatement>))binders __attribute__((swift_name("executeQuery(identifier:sql:parameters:binders:)")));
+- (DKSRuntimeTransacterTransaction *)doNewTransaction __attribute__((swift_name("doNewTransaction()")));
+@end;
+
+__attribute__((swift_name("RuntimeSqlDriverSchema")))
+@protocol DKSRuntimeSqlDriverSchema
+@required
+- (void)createDriver:(id<DKSRuntimeSqlDriver>)driver __attribute__((swift_name("create(driver:)")));
+- (void)migrateDriver:(id<DKSRuntimeSqlDriver>)driver oldVersion:(int32_t)oldVersion newVersion:(int32_t)newVersion __attribute__((swift_name("migrate(driver:oldVersion:newVersion:)")));
+@property (readonly) int32_t version __attribute__((swift_name("version")));
 @end;
 
 __attribute__((swift_name("KotlinCoroutineContext")))
@@ -1333,6 +1650,17 @@ __attribute__((swift_name("KotlinUnit")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol DKSKotlinx_coroutines_coreFlow
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<DKSKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+@end;
+
 __attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
 @interface DKSKotlinAbstractCoroutineContextElement : DKSBase <DKSKotlinCoroutineContextElement>
 - (instancetype)initWithKey:(id<DKSKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
@@ -1358,17 +1686,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
 - (DKSKotlinx_coroutines_coreCoroutineDispatcher *)plusOther_:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
 - (void)releaseInterceptedContinuationContinuation:(id<DKSKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
-@protocol DKSKotlinx_coroutines_coreFlow
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)collectCollector:(id<DKSKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
@@ -1466,6 +1783,19 @@ __attribute__((swift_name("Ktor_httpUrl")))
 @property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
 @property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
 @property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
+@end;
+
+__attribute__((swift_name("RuntimeQuery")))
+@interface DKSRuntimeQuery<__covariant RowType> : DKSBase
+- (instancetype)initWithQueries:(NSMutableArray<DKSRuntimeQuery<id> *> *)queries mapper:(RowType (^)(id<DKSRuntimeSqlCursor>))mapper __attribute__((swift_name("init(queries:mapper:)"))) __attribute__((objc_designated_initializer));
+- (void)addListenerListener:(id<DKSRuntimeQueryListener>)listener __attribute__((swift_name("addListener(listener:)")));
+- (id<DKSRuntimeSqlCursor>)execute __attribute__((swift_name("execute()")));
+- (NSArray<RowType> *)executeAsList __attribute__((swift_name("executeAsList()")));
+- (RowType)executeAsOne __attribute__((swift_name("executeAsOne()")));
+- (RowType _Nullable)executeAsOneOrNull __attribute__((swift_name("executeAsOneOrNull()")));
+- (void)notifyDataChanged __attribute__((swift_name("notifyDataChanged()")));
+- (void)removeListenerListener:(id<DKSRuntimeQueryListener>)listener __attribute__((swift_name("removeListener(listener:)")));
+@property (readonly) RowType (^mapper)(id<DKSRuntimeSqlCursor>) __attribute__((swift_name("mapper")));
 @end;
 
 __attribute__((swift_name("KotlinKDeclarationContainer")))
@@ -1676,6 +2006,35 @@ __attribute__((swift_name("Koin_coreKoinApplication")))
 @property (readonly) DKSKoin_coreKoin *koin __attribute__((swift_name("koin")));
 @end;
 
+__attribute__((swift_name("RuntimeTransacterTransaction")))
+@interface DKSRuntimeTransacterTransaction : DKSBase <DKSRuntimeTransactionCallbacks>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)afterCommitFunction:(void (^)(void))function __attribute__((swift_name("afterCommit(function:)")));
+- (void)afterRollbackFunction:(void (^)(void))function __attribute__((swift_name("afterRollback(function:)")));
+- (void)endTransactionSuccessful:(BOOL)successful __attribute__((swift_name("endTransaction(successful:)")));
+@property (readonly) DKSRuntimeTransacterTransaction * _Nullable enclosingTransaction __attribute__((swift_name("enclosingTransaction")));
+@end;
+
+__attribute__((swift_name("RuntimeSqlPreparedStatement")))
+@protocol DKSRuntimeSqlPreparedStatement
+@required
+- (void)bindBytesIndex:(int32_t)index bytes:(DKSKotlinByteArray * _Nullable)bytes __attribute__((swift_name("bindBytes(index:bytes:)")));
+- (void)bindDoubleIndex:(int32_t)index double:(DKSDouble * _Nullable)double_ __attribute__((swift_name("bindDouble(index:double:)")));
+- (void)bindLongIndex:(int32_t)index long:(DKSLong * _Nullable)long_ __attribute__((swift_name("bindLong(index:long:)")));
+- (void)bindStringIndex:(int32_t)index string:(NSString * _Nullable)string __attribute__((swift_name("bindString(index:string:)")));
+@end;
+
+__attribute__((swift_name("RuntimeSqlCursor")))
+@protocol DKSRuntimeSqlCursor <DKSRuntimeCloseable>
+@required
+- (DKSKotlinByteArray * _Nullable)getBytesIndex:(int32_t)index __attribute__((swift_name("getBytes(index:)")));
+- (DKSDouble * _Nullable)getDoubleIndex:(int32_t)index __attribute__((swift_name("getDouble(index:)")));
+- (DKSLong * _Nullable)getLongIndex:(int32_t)index __attribute__((swift_name("getLong(index:)")));
+- (NSString * _Nullable)getStringIndex:(int32_t)index __attribute__((swift_name("getString(index:)")));
+- (BOOL)next __attribute__((swift_name("next()")));
+@end;
+
 __attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
 @protocol DKSKotlinx_coroutines_coreDisposableHandle
 @required
@@ -1720,6 +2079,17 @@ __attribute__((swift_name("KotlinCoroutineContextKey")))
 @required
 @end;
 
+__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
+@protocol DKSKotlinx_coroutines_coreFlowCollector
+@required
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
+@end;
+
 __attribute__((swift_name("KotlinContinuation")))
 @protocol DKSKotlinContinuation
 @required
@@ -1731,17 +2101,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
 @protocol DKSKotlinx_coroutines_coreRunnable
 @required
 - (void)run __attribute__((swift_name("run()")));
-@end;
-
-__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
-@protocol DKSKotlinx_coroutines_coreFlowCollector
-@required
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -1974,7 +2333,7 @@ __attribute__((swift_name("KotlinIterator")))
 @protocol DKSKotlinIterator
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
-- (id _Nullable)next __attribute__((swift_name("next()")));
+- (id _Nullable)next_ __attribute__((swift_name("next_()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2008,6 +2367,12 @@ __attribute__((swift_name("Ktor_utilsStringValues")))
 __attribute__((swift_name("Ktor_httpParameters")))
 @protocol DKSKtor_httpParameters <DKSKtor_utilsStringValues>
 @required
+@end;
+
+__attribute__((swift_name("RuntimeQueryListener")))
+@protocol DKSRuntimeQueryListener
+@required
+- (void)queryResultsChanged __attribute__((swift_name("queryResultsChanged()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2102,6 +2467,19 @@ __attribute__((swift_name("Koin_coreLevel")))
 @property (class, readonly) DKSKoin_coreLevel *error __attribute__((swift_name("error")));
 @property (class, readonly) DKSKoin_coreLevel *none __attribute__((swift_name("none")));
 + (DKSKotlinArray<DKSKoin_coreLevel *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinByteArray")))
+@interface DKSKotlinByteArray : DKSBase
++ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
++ (instancetype)arrayWithSize:(int32_t)size init:(DKSByte *(^)(DKSInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (DKSKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
@@ -2496,7 +2874,7 @@ __attribute__((swift_name("Ktor_client_coreHttpResponse")))
 @property (readonly) DKSKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
 @property (readonly) DKSKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
 @property (readonly) DKSKtor_httpHttpStatusCode *status __attribute__((swift_name("status")));
-@property (readonly) DKSKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
+@property (readonly) DKSKtor_httpHttpProtocolVersion *version_ __attribute__((swift_name("version_")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2581,6 +2959,14 @@ __attribute__((swift_name("Koin_coreCallbacks")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) void (^ _Nullable onClose)(T _Nullable) __attribute__((swift_name("onClose")));
+@end;
+
+__attribute__((swift_name("KotlinByteIterator")))
+@interface DKSKotlinByteIterator : DKSBase <DKSKotlinIterator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (DKSByte *)next_ __attribute__((swift_name("next_()")));
+- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
@@ -2764,7 +3150,7 @@ __attribute__((swift_name("Ktor_ioChunkBuffer")))
 - (DKSKtor_ioChunkBuffer *)duplicate __attribute__((swift_name("duplicate()")));
 - (void)releasePool:(id<DKSKtor_ioObjectPool>)pool __attribute__((swift_name("release(pool:)")));
 - (void)reset __attribute__((swift_name("reset()")));
-@property (getter=next_) DKSKtor_ioChunkBuffer * _Nullable next __attribute__((swift_name("next")));
+@property (getter=next__) DKSKtor_ioChunkBuffer * _Nullable next __attribute__((swift_name("next")));
 @property (readonly) DKSKtor_ioChunkBuffer * _Nullable origin __attribute__((swift_name("origin")));
 @property (readonly) int32_t referenceCount __attribute__((swift_name("referenceCount")));
 @end;
@@ -2820,19 +3206,6 @@ __attribute__((swift_name("Ktor_ioIoBuffer")))
 - (int32_t)writeDirectBlock:(DKSInt *(^)(id))block __attribute__((swift_name("writeDirect(block:)")));
 @property DKSKtor_ioByteOrder *byteOrder __attribute__((swift_name("byteOrder"))) __attribute__((unavailable("Not supported anymore. All operations are big endian by default.")));
 @property (readonly) BOOL endOfInput __attribute__((swift_name("endOfInput")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinByteArray")))
-@interface DKSKotlinByteArray : DKSBase
-+ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
-+ (instancetype)arrayWithSize:(int32_t)size init:(DKSByte *(^)(DKSInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (DKSKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end;
 
 __attribute__((swift_name("Ktor_ioAbstractInput")))
@@ -2947,7 +3320,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
 - (DKSKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next_) id _Nullable next __attribute__((swift_name("next")));
+@property (readonly, getter=next__) id _Nullable next __attribute__((swift_name("next")));
 @property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
 @property (readonly) DKSKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
 @end;
@@ -3055,14 +3428,6 @@ __attribute__((swift_name("KotlinCharArray")))
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end;
 
-__attribute__((swift_name("KotlinByteIterator")))
-@interface DKSKotlinByteIterator : DKSBase <DKSKotlinIterator>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (DKSByte *)next __attribute__((swift_name("next()")));
-- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
-@end;
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinKTypeProjection")))
 @interface DKSKotlinKTypeProjection : DKSBase
@@ -3128,7 +3493,7 @@ __attribute__((swift_name("KotlinCharIterator")))
 @interface DKSKotlinCharIterator : DKSBase <DKSKotlinIterator>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (id)next __attribute__((swift_name("next()")));
+- (id)next_ __attribute__((swift_name("next_()")));
 - (unichar)nextChar __attribute__((swift_name("nextChar()")));
 @end;
 

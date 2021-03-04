@@ -19,6 +19,10 @@ class UserLocalSourceImpl(
     private val userCacheQueries: UserCacheQueries
 ) : UserLocalSource {
 
+    override fun getUsers(): Flow<List<UserEntity>> {
+        return userQueries.getAllUsers().asFlow().mapToList()
+    }
+
     override suspend fun getUser(id: String): UserEntity? =
         userQueries
             .getUser(id)

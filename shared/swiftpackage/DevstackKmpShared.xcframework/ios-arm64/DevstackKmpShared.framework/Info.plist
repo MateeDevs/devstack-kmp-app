@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>DevstackKmpShared</string>
     <key>CFBundleIdentifier</key>
-    <string>cz.matee.devstack.kmp.shared.DevstackKmpShared</string>
+    <string>cz.matee.devstack.kmp.DevstackKmpShared</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>

@@ -56,12 +56,14 @@ private val commonModule = module {
     factory { GetLoggedInUserUseCase(get()) }
     factory { GetRemoteUsersUseCase(get()) }
     factory { GetLocalUsersUseCase(get()) }
+    factory { GetUsersUseCase(get()) }
     factory { GetUserUseCase(get()) }
     factory { IsUserLoggedInUseCase(get()) }
     factory { UpdateUserUseCase(get()) }
     factory { UpdateLocalUserCacheUseCase(get()) }
     factory { UserCacheChangeFlowUseCase(get()) }
     factory { ReplaceUserCacheWithUseCase(get()) }
+    factory { UpdateUsersLocalUseCase(get()) }
 
     factory { GetDummyFlowUseCase() }
 
