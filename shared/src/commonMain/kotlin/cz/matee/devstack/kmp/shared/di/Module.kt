@@ -9,9 +9,7 @@ import cz.matee.devstack.kmp.shared.data.source.UserLocalSource
 import cz.matee.devstack.kmp.shared.data.source.UserRemoteSource
 import cz.matee.devstack.kmp.shared.domain.repository.AuthRepository
 import cz.matee.devstack.kmp.shared.domain.repository.UserRepository
-import cz.matee.devstack.kmp.shared.domain.usecase.DeleteAuthDataUseCase
-import cz.matee.devstack.kmp.shared.domain.usecase.LoginUseCase
-import cz.matee.devstack.kmp.shared.domain.usecase.RegisterUseCase
+import cz.matee.devstack.kmp.shared.domain.usecase.*
 import cz.matee.devstack.kmp.shared.domain.usecase.user.*
 import cz.matee.devstack.kmp.shared.infrastructure.local.AuthDao
 import cz.matee.devstack.kmp.shared.infrastructure.local.AuthDaoImpl
@@ -57,13 +55,13 @@ private val commonModule = module {
     factory { GetRemoteUsersUseCase(get()) }
     factory { GetLocalUsersUseCase(get()) }
     factory { GetUsersUseCase(get()) }
+    factory { RefreshUsersUseCase(get()) }
     factory { GetUserUseCase(get()) }
     factory { IsUserLoggedInUseCase(get()) }
     factory { UpdateUserUseCase(get()) }
     factory { UpdateLocalUserCacheUseCase(get()) }
     factory { UserCacheChangeFlowUseCase(get()) }
     factory { ReplaceUserCacheWithUseCase(get()) }
-    factory { UpdateUsersLocalUseCase(get()) }
 
     factory { GetDummyFlowUseCase() }
 

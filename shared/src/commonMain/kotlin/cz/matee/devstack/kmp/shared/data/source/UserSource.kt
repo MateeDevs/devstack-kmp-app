@@ -16,7 +16,9 @@ interface UserRemoteSource {
 
 interface UserLocalSource {
     suspend fun getUser(id: String): UserEntity?
+    fun getUsers(): Flow<List<UserEntity>>
     suspend fun updateOrCreate(userEntity: UserEntity)
+    suspend fun updateOrCreate(entities: List<UserEntity>)
 
     suspend fun replaceCacheWith(users: List<UserCache>)
     suspend fun gePagingCache(paging: UserPagingRequest): Flow<List<UserCache>>

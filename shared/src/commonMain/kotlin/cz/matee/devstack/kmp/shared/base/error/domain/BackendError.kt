@@ -17,4 +17,6 @@ sealed class BackendError(
         throwable: Throwable? = null,
     ) : BackendError(throwable, responseMessage)
 
+    class Unknown : BackendError()
+
 }

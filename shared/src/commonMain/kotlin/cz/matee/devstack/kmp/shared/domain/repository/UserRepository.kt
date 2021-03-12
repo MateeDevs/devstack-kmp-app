@@ -11,7 +11,9 @@ import kotlinx.coroutines.flow.Flow
 interface UserRepository {
     val isUserLoggedIn: Boolean
     suspend fun getUser(): Flow<Result<User>>
+    fun getUsers(): Flow<List<User>>
     suspend fun getUser(id: String): Flow<Result<User>>
+    suspend fun refreshUsers(pagingRequest: UserPagingRequest): Result<Unit>;
     suspend fun updateUser(parameters: UserUpdateParameters): Result<User>
 
     suspend fun getUserPagingRemote(parameters: UserPagingParameters): Result<UserPagingResult>
