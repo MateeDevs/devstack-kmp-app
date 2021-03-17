@@ -2,8 +2,6 @@ package cz.matee.devstack.kmp.shared
 
 import cz.matee.devstack.kmp.shared.base.Result
 import cz.matee.devstack.kmp.shared.base.usecase.*
-import cz.matee.devstack.kmp.shared.domain.usecase.GetUserUseCase
-import cz.matee.devstack.kmp.shared.system.Log
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.*
 import kotlin.coroutines.CoroutineContext

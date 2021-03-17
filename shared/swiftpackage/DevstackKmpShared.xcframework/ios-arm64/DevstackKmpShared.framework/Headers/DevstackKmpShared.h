@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class DKSKotlinThrowable, DKSFlowWrapperParent<Params, T>, DKSSuspendWrapperParent<Params, Out>, DKSUser, DKSUserData, DKSUserEntity, DKSUserPaging, DKSKotlinUnit, DKSResult<__covariant T>, DKSUserPagingParameters, DKSUserPagingRequest, DKSUserUpdateParameters, DKSUserUpdateRequest, DKSKotlinx_coroutines_coreCoroutineDispatcher, DKSUseCase<__contravariant Params, __covariant T>, DKSUseCaseResultNoParams<__covariant T>, DKSUseCaseFlowResultNoParams<__covariant T>, DKSUseCaseResult<__contravariant Params, __covariant T>, DKSUseCaseFlowResult<__contravariant Params, __covariant T>, DKSGetUserUseCaseParams, DKSUseCaseFlowNoParams<__covariant T>, DKSUseCaseNoParams<__covariant T>, DKSLoginUseCaseParams, DKSRegisterUseCaseParams, DKSLoginRequest, DKSRegistrationRequest, DKSUserDto, DKSUserPagingDto, DKSKtor_client_coreHttpClient, DKSLoginDto, DKSRegistrationDto, DKSKotlinArray<T>, DKSKotlinException, DKSKtor_httpUrl, DKSUserDataDto, DKSUserDetail, DKSRuntimeQuery<__covariant RowType>, DKSAuthService, DKSUserService, DKSErrorResult, DKSResultError<__covariant T>, DKSResultSuccess<__covariant T>, DKSAuthError, DKSBackendError, DKSCommonError, DKSResultType, DKSUseCaseFlow<__contravariant Params, __covariant T>, DKSKoin_coreDefinitionParameters, DKSKoin_coreScope, DKSKotlinLazyThreadSafetyMode, DKSKoin_coreModule, DKSKoin_coreLogger, DKSKoin_corePropertyRegistry, DKSKoin_coreScopeRegistry, DKSKoin_coreKoin, DKSKoin_coreKoinApplication, DKSDriverFactory, DKSRuntimeTransacterTransaction, DKSKotlinx_coroutines_coreCancellationException, DKSKotlinRuntimeException, DKSKotlinIllegalStateException, DKSKotlinAbstractCoroutineContextElement, DKSKtor_client_coreHttpClientEngineConfig, DKSKtor_client_coreHttpClientConfig<T>, DKSKtor_client_coreHttpRequestBuilder, DKSKtor_client_coreHttpClientCall, DKSKtor_client_coreHttpReceivePipeline, DKSKtor_client_coreHttpRequestPipeline, DKSKtor_client_coreHttpResponsePipeline, DKSKtor_client_coreHttpSendPipeline, DKSKtor_httpURLProtocol, DKSKoin_coreScopeDefinition, DKSKoin_coreBeanDefinition<T>, DKSKotlinEnum<E>, DKSKoin_coreOptions, DKSKoin_coreScopeDSL, DKSKoin_coreLevel, DKSKotlinByteArray, DKSKotlinx_serialization_coreSerializersModule, DKSKotlinx_serialization_coreSerialKind, DKSKotlinNothing, DKSKtor_client_coreHttpRequestData, DKSKtor_client_coreHttpResponseData, DKSKtor_client_coreProxyConfig, DKSKtor_httpHeadersBuilder, DKSKtor_httpURLBuilder, DKSKtor_httpHttpMethod, DKSKtor_client_coreTypeInfo, DKSKtor_client_coreHttpResponse, DKSKtor_utilsAttributeKey<T>, DKSKtor_utilsPipelinePhase, DKSKtor_utilsPipeline<TSubject, TContext>, DKSKtor_client_coreHttpResponseContainer, DKSKoin_coreKind, DKSKoin_coreProperties, DKSKoin_coreCallbacks<T>, DKSKotlinByteIterator, DKSKotlinx_coroutines_coreAtomicDesc, DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, DKSKtor_httpOutgoingContent, DKSKtor_httpHttpStatusCode, DKSKtor_utilsGMTDate, DKSKtor_httpHttpProtocolVersion, DKSKtor_utilsStringValuesBuilder, DKSKtor_httpParametersBuilder, DKSKtor_ioMemory, DKSKtor_ioIoBuffer, DKSKtor_ioByteReadPacket, DKSKtor_ioByteOrder, DKSKotlinx_coroutines_coreAtomicOp<__contravariant T>, DKSKotlinx_coroutines_coreOpDescriptor, DKSKotlinx_coroutines_coreLockFreeLinkedListNode, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, DKSKtor_httpContentType, DKSKtor_utilsWeekDay, DKSKtor_utilsMonth, DKSKtor_ioBuffer, DKSKtor_ioChunkBuffer, DKSKotlinCharArray, DKSKtor_ioAbstractInput, DKSKtor_ioByteReadPacketBase, DKSKtor_ioByteReadPacketPlatformBase, DKSKotlinKTypeProjection, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, DKSKtor_httpHeaderValueParam, DKSKtor_httpHeaderValueWithParameters, DKSKotlinCharIterator, DKSKotlinKVariance;
+@class DKSKotlinThrowable, DKSFlowWrapperParent<Params, T>, DKSSuspendWrapperParent<Params, Out>, DKSBook, DKSUser, DKSUserPagingData, DKSUserPagingResult, DKSKotlinUnit, DKSResult<__covariant T>, DKSUserPagingParameters, DKSUserPagingRequest, DKSUserUpdateParameters, DKSUserUpdateRequest, DKSKotlinx_coroutines_coreCoroutineDispatcher, DKSUseCase<__contravariant Params, __covariant T>, DKSUseCaseResultNoParams<__covariant T>, DKSUseCaseResult<__contravariant Params, __covariant T>, DKSLoginUseCaseParams, DKSRegisterUseCaseParams, DKSUseCaseFlowNoParams<__covariant T>, DKSUseCaseFlowResultNoParams<__covariant T>, DKSUseCaseFlowResult<__contravariant Params, __covariant T>, DKSGetUserUseCaseParams, DKSUseCaseNoParams<__covariant T>, DKSRefreshUsersUseCaseParams, DKSBookEntity, DKSLoginRequest, DKSRegistrationRequest, DKSUserEntity, DKSUserCache, DKSUserDto, DKSUserPagingDto, DKSKtor_client_coreHttpClient, DKSLoginDto, DKSRegistrationDto, DKSKotlinArray<T>, DKSKotlinException, DKSKtor_httpUrl, DKSUserPagingDataDto, DKSRuntimeQuery<__covariant RowType>, DKSAuthService, DKSUserService, DKSErrorResult, DKSResultError<__covariant T>, DKSResultSuccess<__covariant T>, DKSAuthError, DKSBackendError, DKSCommonError, DKSResultType, DKSUseCaseFlow<__contravariant Params, __covariant T>, DKSKoin_coreDefinitionParameters, DKSKoin_coreScope, DKSKotlinLazyThreadSafetyMode, DKSKoin_coreModule, DKSKoin_coreLogger, DKSKoin_corePropertyRegistry, DKSKoin_coreScopeRegistry, DKSKoin_coreKoin, DKSKoin_coreKoinApplication, DKSDriverFactory, DKSRuntimeTransacterTransaction, DKSKotlinx_coroutines_coreCancellationException, DKSKotlinRuntimeException, DKSKotlinIllegalStateException, DKSKotlinAbstractCoroutineContextElement, DKSKtor_client_coreHttpClientEngineConfig, DKSKtor_client_coreHttpClientConfig<T>, DKSKtor_client_coreHttpRequestBuilder, DKSKtor_client_coreHttpClientCall, DKSKtor_client_coreHttpReceivePipeline, DKSKtor_client_coreHttpRequestPipeline, DKSKtor_client_coreHttpResponsePipeline, DKSKtor_client_coreHttpSendPipeline, DKSKtor_httpURLProtocol, DKSKoin_coreScopeDefinition, DKSKoin_coreBeanDefinition<T>, DKSKotlinEnum<E>, DKSKoin_coreOptions, DKSKoin_coreScopeDSL, DKSKoin_coreLevel, DKSKotlinByteArray, DKSKotlinx_serialization_coreSerializersModule, DKSKotlinx_serialization_coreSerialKind, DKSKotlinNothing, DKSKtor_client_coreHttpRequestData, DKSKtor_client_coreHttpResponseData, DKSKtor_client_coreProxyConfig, DKSKtor_httpHeadersBuilder, DKSKtor_httpURLBuilder, DKSKtor_httpHttpMethod, DKSKtor_client_coreTypeInfo, DKSKtor_client_coreHttpResponse, DKSKtor_utilsAttributeKey<T>, DKSKtor_utilsPipelinePhase, DKSKtor_utilsPipeline<TSubject, TContext>, DKSKtor_client_coreHttpResponseContainer, DKSKoin_coreKind, DKSKoin_coreProperties, DKSKoin_coreCallbacks<T>, DKSKotlinByteIterator, DKSKotlinx_coroutines_coreAtomicDesc, DKSKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, DKSKtor_httpOutgoingContent, DKSKtor_httpHttpStatusCode, DKSKtor_utilsGMTDate, DKSKtor_httpHttpProtocolVersion, DKSKtor_utilsStringValuesBuilder, DKSKtor_httpParametersBuilder, DKSKtor_ioMemory, DKSKtor_ioIoBuffer, DKSKtor_ioByteReadPacket, DKSKtor_ioByteOrder, DKSKotlinx_coroutines_coreAtomicOp<__contravariant T>, DKSKotlinx_coroutines_coreOpDescriptor, DKSKotlinx_coroutines_coreLockFreeLinkedListNode, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, DKSKtor_httpContentType, DKSKtor_utilsWeekDay, DKSKtor_utilsMonth, DKSKtor_ioBuffer, DKSKtor_ioChunkBuffer, DKSKotlinCharArray, DKSKtor_ioAbstractInput, DKSKtor_ioByteReadPacketBase, DKSKtor_ioByteReadPacketPlatformBase, DKSKotlinKTypeProjection, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, DKSKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>, DKSKtor_httpHeaderValueParam, DKSKtor_httpHeaderValueWithParameters, DKSKotlinCharIterator, DKSKotlinKVariance;
 
-@protocol DKSUserDetailQueries, DKSUserQueries, DKSRuntimeTransactionWithoutReturn, DKSRuntimeTransactionWithReturn, DKSRuntimeTransacter, DKSDatabase, DKSRuntimeSqlDriver, DKSRuntimeSqlDriverSchema, DKSKotlinx_coroutines_coreJob, DKSKotlinSuspendFunction1, DKSKotlinx_coroutines_coreFlow, DKSAuthRepository, DKSUserRepository, DKSAuthDao, DKSUserRemoteSource, DKSUserLocalSource, DKSKotlinx_serialization_coreKSerializer, DKSConfig, DKSLogger, DKSKotlinKClass, DKSKoin_coreKoinScopeComponent, DKSKoin_coreQualifier, DKSKotlinLazy, DKSKotlinx_coroutines_coreCoroutineScope, DKSErrorMessageProvider, DKSRuntimeTransactionCallbacks, DKSRuntimeSqlPreparedStatement, DKSRuntimeSqlCursor, DKSRuntimeCloseable, DKSKotlinx_coroutines_coreChildHandle, DKSKotlinx_coroutines_coreChildJob, DKSKotlinx_coroutines_coreDisposableHandle, DKSKotlinSequence, DKSKotlinx_coroutines_coreSelectClause0, DKSKotlinCoroutineContextKey, DKSKotlinCoroutineContextElement, DKSKotlinCoroutineContext, DKSKotlinFunction, DKSKotlinx_coroutines_coreFlowCollector, DKSKotlinContinuation, DKSKotlinContinuationInterceptor, DKSKotlinx_coroutines_coreRunnable, DKSKotlinx_serialization_coreEncoder, DKSKotlinx_serialization_coreSerialDescriptor, DKSKotlinx_serialization_coreSerializationStrategy, DKSKotlinx_serialization_coreDecoder, DKSKotlinx_serialization_coreDeserializationStrategy, DKSKtor_ioCloseable, DKSKtor_client_coreHttpClientEngine, DKSKtor_client_coreHttpClientEngineCapability, DKSKtor_utilsAttributes, DKSKotlinIterator, DKSKtor_httpParameters, DKSRuntimeQueryListener, DKSKotlinKDeclarationContainer, DKSKotlinKAnnotatedElement, DKSKotlinKClassifier, DKSKoin_coreScopeCallback, DKSKoin_coreKoinComponent, DKSKotlinComparable, DKSKotlinx_coroutines_coreParentJob, DKSKotlinx_coroutines_coreSelectInstance, DKSKotlinSuspendFunction0, DKSKotlinx_serialization_coreCompositeEncoder, DKSKotlinAnnotation, DKSKotlinx_serialization_coreCompositeDecoder, DKSKtor_client_coreHttpClientFeature, DKSKtor_httpHttpMessageBuilder, DKSKtor_ioByteReadChannel, DKSKtor_client_coreHttpRequest, DKSKotlinSuspendFunction2, DKSKotlinMapEntry, DKSKtor_utilsStringValues, DKSKotlinx_serialization_coreSerializersModuleCollector, DKSKtor_httpHeaders, DKSKtor_ioReadSession, DKSKotlinAppendable, DKSKotlinKType, DKSKtor_httpHttpMessage, DKSKtor_ioObjectPool, DKSKtor_ioInput, DKSKtor_ioOutput;
+@protocol DKSBookQueries, DKSUserCacheQueries, DKSUserQueries, DKSRuntimeTransactionWithoutReturn, DKSRuntimeTransactionWithReturn, DKSRuntimeTransacter, DKSDatabase, DKSRuntimeSqlDriver, DKSRuntimeSqlDriverSchema, DKSKotlinx_coroutines_coreJob, DKSKotlinSuspendFunction1, DKSKotlinx_coroutines_coreFlow, DKSAuthRepository, DKSBookRepository, DKSUserRepository, DKSBookLocalSource, DKSAuthDao, DKSUserRemoteSource, DKSUserLocalSource, DKSKotlinx_serialization_coreKSerializer, DKSConfig, DKSLogger, DKSKotlinKClass, DKSKoin_coreKoinScopeComponent, DKSKoin_coreQualifier, DKSKotlinLazy, DKSKotlinx_coroutines_coreCoroutineScope, DKSErrorMessageProvider, DKSRuntimeTransactionCallbacks, DKSRuntimeSqlPreparedStatement, DKSRuntimeSqlCursor, DKSRuntimeCloseable, DKSKotlinx_coroutines_coreChildHandle, DKSKotlinx_coroutines_coreChildJob, DKSKotlinx_coroutines_coreDisposableHandle, DKSKotlinSequence, DKSKotlinx_coroutines_coreSelectClause0, DKSKotlinCoroutineContextKey, DKSKotlinCoroutineContextElement, DKSKotlinCoroutineContext, DKSKotlinFunction, DKSKotlinx_coroutines_coreFlowCollector, DKSKotlinContinuation, DKSKotlinContinuationInterceptor, DKSKotlinx_coroutines_coreRunnable, DKSKotlinx_serialization_coreEncoder, DKSKotlinx_serialization_coreSerialDescriptor, DKSKotlinx_serialization_coreSerializationStrategy, DKSKotlinx_serialization_coreDecoder, DKSKotlinx_serialization_coreDeserializationStrategy, DKSKtor_ioCloseable, DKSKtor_client_coreHttpClientEngine, DKSKtor_client_coreHttpClientEngineCapability, DKSKtor_utilsAttributes, DKSKotlinIterator, DKSKtor_httpParameters, DKSRuntimeQueryListener, DKSKotlinKDeclarationContainer, DKSKotlinKAnnotatedElement, DKSKotlinKClassifier, DKSKoin_coreScopeCallback, DKSKoin_coreKoinComponent, DKSKotlinComparable, DKSKotlinx_coroutines_coreParentJob, DKSKotlinx_coroutines_coreSelectInstance, DKSKotlinSuspendFunction0, DKSKotlinx_serialization_coreCompositeEncoder, DKSKotlinAnnotation, DKSKotlinx_serialization_coreCompositeDecoder, DKSKtor_client_coreHttpClientFeature, DKSKtor_httpHttpMessageBuilder, DKSKtor_ioByteReadChannel, DKSKtor_client_coreHttpRequest, DKSKotlinSuspendFunction2, DKSKotlinMapEntry, DKSKtor_utilsStringValues, DKSKotlinx_serialization_coreSerializersModuleCollector, DKSKtor_httpHeaders, DKSKtor_ioReadSession, DKSKotlinAppendable, DKSKotlinKType, DKSKtor_httpHttpMessage, DKSKtor_ioObjectPool, DKSKtor_ioInput, DKSKtor_ioOutput;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -148,7 +148,8 @@ __attribute__((swift_name("RuntimeTransacter")))
 __attribute__((swift_name("Database")))
 @protocol DKSDatabase <DKSRuntimeTransacter>
 @required
-@property (readonly) id<DKSUserDetailQueries> userDetailQueries __attribute__((swift_name("userDetailQueries")));
+@property (readonly) id<DKSBookQueries> bookQueries __attribute__((swift_name("bookQueries")));
+@property (readonly) id<DKSUserCacheQueries> userCacheQueries __attribute__((swift_name("userCacheQueries")));
 @property (readonly) id<DKSUserQueries> userQueries __attribute__((swift_name("userQueries")));
 @end;
 
@@ -185,6 +186,24 @@ __attribute__((swift_name("SuspendWrapper")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Book")))
+@interface DKSBook : DKSBase
+- (instancetype)initWithId:(NSString *)id name:(NSString *)name author:(NSString *)author pages:(int64_t)pages __attribute__((swift_name("init(id:name:author:pages:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (NSString *)component3 __attribute__((swift_name("component3()")));
+- (int64_t)component4 __attribute__((swift_name("component4()")));
+- (DKSBook *)doCopyId:(NSString *)id name:(NSString *)name author:(NSString *)author pages:(int64_t)pages __attribute__((swift_name("doCopy(id:name:author:pages:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *author __attribute__((swift_name("author")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int64_t pages __attribute__((swift_name("pages")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("User")))
 @interface DKSUser : DKSBase
 - (instancetype)initWithId:(NSString *)id email:(NSString *)email bio:(NSString *)bio firstName:(NSString *)firstName lastName:(NSString *)lastName phone:(NSString * _Nullable)phone __attribute__((swift_name("init(id:email:bio:firstName:lastName:phone:)"))) __attribute__((objc_designated_initializer));
@@ -201,50 +220,45 @@ __attribute__((swift_name("User")))
 @property (readonly) NSString *bio __attribute__((swift_name("bio")));
 @property (readonly) NSString *email __attribute__((swift_name("email")));
 @property (readonly) NSString *firstName __attribute__((swift_name("firstName")));
-@property (readonly) NSString *fullName __attribute__((swift_name("fullName")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) NSString *lastName __attribute__((swift_name("lastName")));
 @property (readonly) NSString * _Nullable phone __attribute__((swift_name("phone")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UserData")))
-@interface DKSUserData : DKSBase
-- (instancetype)initWithId:(NSString *)id email:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName __attribute__((swift_name("init(id:email:firstName:lastName:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("UserPagingData")))
+@interface DKSUserPagingData : DKSBase
+- (instancetype)initWithId:(NSString *)id email:(NSString *)email firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName __attribute__((swift_name("init(id:email:firstName:lastName:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (NSString *)component2 __attribute__((swift_name("component2()")));
-- (NSString *)component3 __attribute__((swift_name("component3()")));
-- (NSString *)component4 __attribute__((swift_name("component4()")));
-- (DKSUserData *)doCopyId:(NSString *)id email:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName __attribute__((swift_name("doCopy(id:email:firstName:lastName:)")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (DKSUserPagingData *)doCopyId:(NSString *)id email:(NSString *)email firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName __attribute__((swift_name("doCopy(id:email:firstName:lastName:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) DKSUserEntity *asEntityWithPlaceholders __attribute__((swift_name("asEntityWithPlaceholders")));
-@property (readonly) DKSUser *asUserWithPlaceholders __attribute__((swift_name("asUserWithPlaceholders")));
 @property (readonly) NSString *email __attribute__((swift_name("email")));
-@property (readonly) NSString *firstName __attribute__((swift_name("firstName")));
+@property (readonly) NSString * _Nullable firstName __attribute__((swift_name("firstName")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSString *lastName __attribute__((swift_name("lastName")));
+@property (readonly) NSString * _Nullable lastName __attribute__((swift_name("lastName")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UserPaging")))
-@interface DKSUserPaging : DKSBase
-- (instancetype)initWithUsers:(NSArray<DKSUserData *> *)users totalCount:(int32_t)totalCount lastPage:(int32_t)lastPage limit:(int32_t)limit page:(int32_t)page __attribute__((swift_name("init(users:totalCount:lastPage:limit:page:)"))) __attribute__((objc_designated_initializer));
-- (NSArray<DKSUserData *> *)component1 __attribute__((swift_name("component1()")));
+__attribute__((swift_name("UserPagingResult")))
+@interface DKSUserPagingResult : DKSBase
+- (instancetype)initWithUsers:(NSArray<DKSUserPagingData *> *)users totalCount:(int32_t)totalCount limit:(int32_t)limit offset:(int32_t)offset __attribute__((swift_name("init(users:totalCount:limit:offset:)"))) __attribute__((objc_designated_initializer));
+- (NSArray<DKSUserPagingData *> *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (int32_t)component4 __attribute__((swift_name("component4()")));
-- (int32_t)component5 __attribute__((swift_name("component5()")));
-- (DKSUserPaging *)doCopyUsers:(NSArray<DKSUserData *> *)users totalCount:(int32_t)totalCount lastPage:(int32_t)lastPage limit:(int32_t)limit page:(int32_t)page __attribute__((swift_name("doCopy(users:totalCount:lastPage:limit:page:)")));
+- (DKSUserPagingResult *)doCopyUsers:(NSArray<DKSUserPagingData *> *)users totalCount:(int32_t)totalCount limit:(int32_t)limit offset:(int32_t)offset __attribute__((swift_name("doCopy(users:totalCount:limit:offset:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t lastPage __attribute__((swift_name("lastPage")));
 @property (readonly) int32_t limit __attribute__((swift_name("limit")));
-@property (readonly) int32_t page __attribute__((swift_name("page")));
+@property (readonly) int32_t offset __attribute__((swift_name("offset")));
 @property (readonly) int32_t totalCount __attribute__((swift_name("totalCount")));
-@property (readonly) NSArray<DKSUserData *> *users __attribute__((swift_name("users")));
+@property (readonly) NSArray<DKSUserPagingData *> *users __attribute__((swift_name("users")));
 @end;
 
 __attribute__((swift_name("AuthRepository")))
@@ -270,19 +284,31 @@ __attribute__((swift_name("AuthRepository")))
 - (void)registerEmail:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName pass:(NSString *)pass completionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("register(email:firstName:lastName:pass:completionHandler:)")));
 @end;
 
+__attribute__((swift_name("BookRepository")))
+@protocol DKSBookRepository
+@required
+- (id<DKSKotlinx_coroutines_coreFlow>)getAllBooks __attribute__((swift_name("getAllBooks()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)reloadAllBooksWithCompletionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("reloadAllBooks(completionHandler:)")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserPagingParameters")))
 @interface DKSUserPagingParameters : DKSBase
-- (instancetype)initWithPage:(int32_t)page limit:(int32_t)limit __attribute__((swift_name("init(page:limit:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOffset:(int32_t)offset limit:(int32_t)limit __attribute__((swift_name("init(offset:limit:)"))) __attribute__((objc_designated_initializer));
 - (int32_t)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
-- (DKSUserPagingParameters *)doCopyPage:(int32_t)page limit:(int32_t)limit __attribute__((swift_name("doCopy(page:limit:)")));
+- (DKSUserPagingParameters *)doCopyOffset:(int32_t)offset limit:(int32_t)limit __attribute__((swift_name("doCopy(offset:limit:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) DKSUserPagingRequest *asRequest __attribute__((swift_name("asRequest")));
 @property (readonly) int32_t limit __attribute__((swift_name("limit")));
-@property (readonly) int32_t page __attribute__((swift_name("page")));
+@property (readonly) int32_t offset __attribute__((swift_name("offset")));
 @end;
 
 __attribute__((swift_name("UserRepository")))
@@ -300,19 +326,37 @@ __attribute__((swift_name("UserRepository")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getUserId:(NSString *)id completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserPagingLocalParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserPagingLocal(parameters:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserPagingRemoteParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUserPagingResult *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserPagingRemote(parameters:completionHandler:)")));
 - (id<DKSKotlinx_coroutines_coreFlow>)getUsers __attribute__((swift_name("getUsers()")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersLocalParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsersLocal(parameters:completionHandler:)")));
+- (void)localCacheChangesWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("localCacheChanges(completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersRemoteParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUserPaging *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsersRemote(parameters:completionHandler:)")));
+- (void)refreshUsersPagingRequest:(DKSUserPagingRequest *)pagingRequest completionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("refreshUsers(pagingRequest:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)replaceLocalCacheWithUsers:(NSArray<DKSUserPagingData *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("replaceLocalCacheWith(users:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -324,7 +368,7 @@ __attribute__((swift_name("UserRepository")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)updateUsersLocalUsers:(NSArray<DKSUser *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateUsersLocal(users:completionHandler:)")));
+- (void)updateUserPagingCacheUsers:(NSArray<DKSUserPagingData *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateUserPagingCache(users:completionHandler:)")));
 @property (readonly) BOOL isUserLoggedIn __attribute__((swift_name("isUserLoggedIn")));
 @end;
 
@@ -393,146 +437,9 @@ __attribute__((swift_name("DeleteAuthDataUseCase")))
 - (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
 @end;
 
-__attribute__((swift_name("UseCaseFlowResultNoParams")))
-@interface DKSUseCaseFlowResultNoParams<__covariant T> : DKSUseCase<DKSKotlinUnit *, id<DKSKotlinx_coroutines_coreFlow>>
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetDummyFlowUseCase")))
-@interface DKSGetDummyFlowUseCase : DKSUseCaseFlowResultNoParams<NSString *>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetLocalUsersUseCase")))
-@interface DKSGetLocalUsersUseCase : DKSUseCase<DKSUserPagingParameters *, id<DKSKotlinx_coroutines_coreFlow>>
-- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)doWorkParams:(DKSUserPagingParameters *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetLoggedInUserUseCase")))
-@interface DKSGetLoggedInUserUseCase : DKSUseCaseFlowResultNoParams<DKSUser *>
-- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
-@end;
-
 __attribute__((swift_name("UseCaseResult")))
 @interface DKSUseCaseResult<__contravariant Params, __covariant T> : DKSUseCase<Params, DKSResult<T> *>
 - (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetRemoteUsersUseCase")))
-@interface DKSGetRemoteUsersUseCase : DKSUseCaseResult<DKSUserPagingParameters *, DKSUserPaging *>
-- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)doWorkParams:(DKSUserPagingParameters *)params completionHandler:(void (^)(DKSResult<DKSUserPaging *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
-@end;
-
-__attribute__((swift_name("UseCaseFlowResult")))
-@interface DKSUseCaseFlowResult<__contravariant Params, __covariant T> : DKSUseCase<Params, id<DKSKotlinx_coroutines_coreFlow>>
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetUserUseCase")))
-@interface DKSGetUserUseCase : DKSUseCaseFlowResult<DKSGetUserUseCaseParams *, DKSUser *>
-- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)doWorkParams:(DKSGetUserUseCaseParams *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetUserUseCase.Params")))
-@interface DKSGetUserUseCaseParams : DKSBase
-- (instancetype)initWithUserId:(NSString *)userId __attribute__((swift_name("init(userId:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString *userId __attribute__((swift_name("userId")));
-@end;
-
-__attribute__((swift_name("UseCaseFlowNoParams")))
-@interface DKSUseCaseFlowNoParams<__covariant T> : DKSUseCase<DKSKotlinUnit *, id<DKSKotlinx_coroutines_coreFlow>>
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetUsersUseCase")))
-@interface DKSGetUsersUseCase : DKSUseCaseFlowNoParams<NSArray<DKSUser *> *>
-- (instancetype)initWithRepository:(id<DKSUserRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
-@end;
-
-__attribute__((swift_name("UseCaseNoParams")))
-@interface DKSUseCaseNoParams<__covariant T> : DKSUseCase<DKSKotlinUnit *, T>
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(T _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("IsUserLoggedInUseCase")))
-@interface DKSIsUserLoggedInUseCase : DKSUseCaseNoParams<DKSBoolean *>
-- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(DKSBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -593,6 +500,208 @@ __attribute__((swift_name("RegisterUseCase.Params")))
 @property (readonly) NSString *password __attribute__((swift_name("password")));
 @end;
 
+__attribute__((swift_name("UseCaseFlowNoParams")))
+@interface DKSUseCaseFlowNoParams<__covariant T> : DKSUseCase<DKSKotlinUnit *, id<DKSKotlinx_coroutines_coreFlow>>
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetBooksUseCase")))
+@interface DKSGetBooksUseCase : DKSUseCaseFlowNoParams<NSArray<DKSBook *> *>
+- (instancetype)initWithRepository:(id<DKSBookRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RefreshBooksUseCase")))
+@interface DKSRefreshBooksUseCase : DKSUseCaseResultNoParams<DKSKotlinUnit *>
+- (instancetype)initWithRepository:(id<DKSBookRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetLocalUsersUseCase")))
+@interface DKSGetLocalUsersUseCase : DKSUseCase<DKSUserPagingParameters *, id<DKSKotlinx_coroutines_coreFlow>>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSUserPagingParameters *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("UseCaseFlowResultNoParams")))
+@interface DKSUseCaseFlowResultNoParams<__covariant T> : DKSUseCase<DKSKotlinUnit *, id<DKSKotlinx_coroutines_coreFlow>>
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetLoggedInUserUseCase")))
+@interface DKSGetLoggedInUserUseCase : DKSUseCaseFlowResultNoParams<DKSUser *>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetRemoteUsersUseCase")))
+@interface DKSGetRemoteUsersUseCase : DKSUseCaseResult<DKSUserPagingParameters *, DKSUserPagingResult *>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSUserPagingParameters *)params completionHandler:(void (^)(DKSResult<DKSUserPagingResult *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("UseCaseFlowResult")))
+@interface DKSUseCaseFlowResult<__contravariant Params, __covariant T> : DKSUseCase<Params, id<DKSKotlinx_coroutines_coreFlow>>
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetUserUseCase")))
+@interface DKSGetUserUseCase : DKSUseCaseFlowResult<DKSGetUserUseCaseParams *, DKSUser *>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSGetUserUseCaseParams *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetUserUseCase.Params")))
+@interface DKSGetUserUseCaseParams : DKSBase
+- (instancetype)initWithUserId:(NSString *)userId __attribute__((swift_name("init(userId:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *userId __attribute__((swift_name("userId")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GetUsersUseCase")))
+@interface DKSGetUsersUseCase : DKSUseCaseFlowNoParams<NSArray<DKSUser *> *>
+- (instancetype)initWithRepository:(id<DKSUserRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((swift_name("UseCaseNoParams")))
+@interface DKSUseCaseNoParams<__covariant T> : DKSUseCase<DKSKotlinUnit *, T>
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeWithCompletionHandler:(void (^)(T _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("IsUserLoggedInUseCase")))
+@interface DKSIsUserLoggedInUseCase : DKSUseCaseNoParams<DKSBoolean *>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(DKSBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RefreshUsersUseCase")))
+@interface DKSRefreshUsersUseCase : DKSUseCaseResult<DKSRefreshUsersUseCaseParams *, DKSKotlinUnit *>
+- (instancetype)initWithRepository:(id<DKSUserRepository>)repository __attribute__((swift_name("init(repository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(DKSRefreshUsersUseCaseParams *)params completionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RefreshUsersUseCase.Params")))
+@interface DKSRefreshUsersUseCaseParams : DKSBase
+- (instancetype)initWithOffset:(int32_t)offset limit:(int32_t)limit __attribute__((swift_name("init(offset:limit:)"))) __attribute__((objc_designated_initializer));
+- (int32_t)component1 __attribute__((swift_name("component1()")));
+- (int32_t)component2 __attribute__((swift_name("component2()")));
+- (DKSRefreshUsersUseCaseParams *)doCopyOffset:(int32_t)offset limit:(int32_t)limit __attribute__((swift_name("doCopy(offset:limit:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t limit __attribute__((swift_name("limit")));
+@property (readonly) int32_t offset __attribute__((swift_name("offset")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ReplaceUserCacheWithUseCase")))
+@interface DKSReplaceUserCacheWithUseCase : DKSUseCase<NSArray<DKSUserPagingData *> *, DKSKotlinUnit *>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(NSArray<DKSUserPagingData *> *)params completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UpdateLocalUserCacheUseCase")))
+@interface DKSUpdateLocalUserCacheUseCase : DKSUseCase<NSArray<DKSUserPagingData *> *, DKSKotlinUnit *>
+- (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)doWorkParams:(NSArray<DKSUserPagingData *> *)params completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UpdateUserUseCase")))
 @interface DKSUpdateUserUseCase : DKSUseCaseResult<DKSUserUpdateParameters *, DKSUser *>
@@ -607,8 +716,8 @@ __attribute__((swift_name("UpdateUserUseCase")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UpdateUsersLocalUseCase")))
-@interface DKSUpdateUsersLocalUseCase : DKSUseCase<NSArray<DKSUser *> *, DKSKotlinUnit *>
+__attribute__((swift_name("UserCacheChangeFlowUseCase")))
+@interface DKSUserCacheChangeFlowUseCase : DKSUseCaseNoParams<id<DKSKotlinx_coroutines_coreFlow>>
 - (instancetype)initWithUserRepository:(id<DKSUserRepository>)userRepository __attribute__((swift_name("init(userRepository:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithDispatcher:(DKSKotlinx_coroutines_coreCoroutineDispatcher *)dispatcher __attribute__((swift_name("init(dispatcher:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 
@@ -616,7 +725,20 @@ __attribute__((swift_name("UpdateUsersLocalUseCase")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)doWorkParams:(NSArray<DKSUser *> *)params completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+- (void)doWorkParams:(DKSKotlinUnit *)params completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("doWork(params:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BookRepositoryImpl")))
+@interface DKSBookRepositoryImpl : DKSBase <DKSBookRepository>
+- (instancetype)initWithSource:(id<DKSBookLocalSource>)source __attribute__((swift_name("init(source:)"))) __attribute__((objc_designated_initializer));
+- (id<DKSKotlinx_coroutines_coreFlow>)getAllBooks __attribute__((swift_name("getAllBooks()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)reloadAllBooksWithCompletionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("reloadAllBooks(completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -635,19 +757,37 @@ __attribute__((swift_name("UserRepositoryImpl")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getUserId:(NSString *)id completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserPagingLocalParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserPagingLocal(parameters:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserPagingRemoteParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUserPagingResult *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserPagingRemote(parameters:completionHandler:)")));
 - (id<DKSKotlinx_coroutines_coreFlow>)getUsers __attribute__((swift_name("getUsers()")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersLocalParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsersLocal(parameters:completionHandler:)")));
+- (void)localCacheChangesWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("localCacheChanges(completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersRemoteParameters:(DKSUserPagingParameters *)parameters completionHandler:(void (^)(DKSResult<DKSUserPaging *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsersRemote(parameters:completionHandler:)")));
+- (void)refreshUsersPagingRequest:(DKSUserPagingRequest *)pagingRequest completionHandler:(void (^)(DKSResult<DKSKotlinUnit *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("refreshUsers(pagingRequest:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)replaceLocalCacheWithUsers:(NSArray<DKSUserPagingData *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("replaceLocalCacheWith(users:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -659,8 +799,20 @@ __attribute__((swift_name("UserRepositoryImpl")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)updateUsersLocalUsers:(NSArray<DKSUser *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateUsersLocal(users:completionHandler:)")));
+- (void)updateUserPagingCacheUsers:(NSArray<DKSUserPagingData *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateUserPagingCache(users:completionHandler:)")));
 @property (readonly) BOOL isUserLoggedIn __attribute__((swift_name("isUserLoggedIn")));
+@end;
+
+__attribute__((swift_name("BookLocalSource")))
+@protocol DKSBookLocalSource
+@required
+- (id<DKSKotlinx_coroutines_coreFlow>)getAll __attribute__((swift_name("getAll()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateOrInsertItems:(NSArray<DKSBookEntity *> *)items completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrInsert(items:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -721,20 +873,32 @@ __attribute__((swift_name("UserLocalSource")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUserId:(NSString *)id completionHandler:(void (^)(DKSUserEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
+- (void)gePagingCachePaging:(DKSUserPagingRequest *)paging completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("gePagingCache(paging:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUserCountWithCompletionHandler:(void (^)(DKSLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserCount(completionHandler:)")));
+- (void)getPagingCacheCountWithCompletionHandler:(void (^)(DKSLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getPagingCacheCount(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getUserId:(NSString *)id completionHandler:(void (^)(DKSUserEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
 - (id<DKSKotlinx_coroutines_coreFlow>)getUsers __attribute__((swift_name("getUsers()")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersPaging:(DKSUserPagingRequest *)paging completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsers(paging:completionHandler:)")));
+- (void)onPagingCacheChangedWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("onPagingCacheChanged(completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)replaceCacheWithUsers:(NSArray<DKSUserCache *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("replaceCacheWith(users:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -746,21 +910,27 @@ __attribute__((swift_name("UserLocalSource")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)updateOrCreateUsers:(NSArray<DKSUserEntity *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(users:completionHandler:)")));
+- (void)updateOrCreateEntities:(NSArray<DKSUserEntity *> *)entities completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(entities:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updatePagingCacheUsers:(NSArray<DKSUserCache *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updatePagingCache(users:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserPagingRequest")))
 @interface DKSUserPagingRequest : DKSBase
-- (instancetype)initWithPage:(int32_t)page limit:(int32_t)limit __attribute__((swift_name("init(page:limit:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOffset:(int32_t)offset limit:(int32_t)limit __attribute__((swift_name("init(offset:limit:)"))) __attribute__((objc_designated_initializer));
 - (int32_t)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
-- (DKSUserPagingRequest *)doCopyPage:(int32_t)page limit:(int32_t)limit __attribute__((swift_name("doCopy(page:limit:)")));
+- (DKSUserPagingRequest *)doCopyOffset:(int32_t)offset limit:(int32_t)limit __attribute__((swift_name("doCopy(offset:limit:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) int32_t limit __attribute__((swift_name("limit")));
-@property (readonly) int32_t page __attribute__((swift_name("page")));
+@property (readonly) int32_t offset __attribute__((swift_name("offset")));
 @end;
 
 __attribute__((swift_name("UserRemoteSource")))
@@ -911,7 +1081,7 @@ __attribute__((swift_name("UserService")))
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersParams:(DKSUserPagingRequest *)params completionHandler:(void (^)(DKSResult<DKSUserPagingDto *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsers(params:completionHandler:)")));
+- (void)getUsersPage:(int32_t)page limit:(int32_t)limit completionHandler:(void (^)(DKSResult<DKSUserPagingDto *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsers(page:limit:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
@@ -973,34 +1143,6 @@ __attribute__((swift_name("RegistrationDto.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UserDataDto")))
-@interface DKSUserDataDto : DKSBase
-- (instancetype)initWithEmail:(NSString *)email firstName:(NSString *)firstName id:(NSString *)id lastName:(NSString *)lastName __attribute__((swift_name("init(email:firstName:id:lastName:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()")));
-- (NSString *)component2 __attribute__((swift_name("component2()")));
-- (NSString *)component3 __attribute__((swift_name("component3()")));
-- (NSString *)component4 __attribute__((swift_name("component4()")));
-- (DKSUserDataDto *)doCopyEmail:(NSString *)email firstName:(NSString *)firstName id:(NSString *)id lastName:(NSString *)lastName __attribute__((swift_name("doCopy(email:firstName:id:lastName:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) DKSUserData *asDomain __attribute__((swift_name("asDomain")));
-@property (readonly) NSString *email __attribute__((swift_name("email")));
-@property (readonly) NSString *firstName __attribute__((swift_name("firstName")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSString *lastName __attribute__((swift_name("lastName")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UserDataDto.Companion")))
-@interface DKSUserDataDtoCompanion : DKSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-- (id<DKSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserDto")))
 @interface DKSUserDto : DKSBase
 - (instancetype)initWithId:(NSString *)id email:(NSString *)email firstName:(NSString *)firstName lastName:(NSString *)lastName bio:(NSString *)bio phone:(NSString * _Nullable)phone __attribute__((swift_name("init(id:email:firstName:lastName:bio:phone:)"))) __attribute__((objc_designated_initializer));
@@ -1014,7 +1156,6 @@ __attribute__((swift_name("UserDto")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) DKSUser *asDomain __attribute__((swift_name("asDomain")));
 @property (readonly) NSString *bio __attribute__((swift_name("bio")));
 @property (readonly) NSString *email __attribute__((swift_name("email")));
 @property (readonly) NSString *firstName __attribute__((swift_name("firstName")));
@@ -1033,20 +1174,46 @@ __attribute__((swift_name("UserDto.Companion")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserPagingDataDto")))
+@interface DKSUserPagingDataDto : DKSBase
+- (instancetype)initWithEmail:(NSString *)email firstName:(NSString *)firstName id:(NSString *)id lastName:(NSString *)lastName __attribute__((swift_name("init(email:firstName:id:lastName:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (NSString *)component3 __attribute__((swift_name("component3()")));
+- (NSString *)component4 __attribute__((swift_name("component4()")));
+- (DKSUserPagingDataDto *)doCopyEmail:(NSString *)email firstName:(NSString *)firstName id:(NSString *)id lastName:(NSString *)lastName __attribute__((swift_name("doCopy(email:firstName:id:lastName:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *email __attribute__((swift_name("email")));
+@property (readonly) NSString *firstName __attribute__((swift_name("firstName")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString *lastName __attribute__((swift_name("lastName")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UserPagingDataDto.Companion")))
+@interface DKSUserPagingDataDtoCompanion : DKSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<DKSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserPagingDto")))
 @interface DKSUserPagingDto : DKSBase
-- (instancetype)initWithData:(NSArray<DKSUserDataDto *> *)data totalCount:(int32_t)totalCount lastPage:(int32_t)lastPage limit:(int32_t)limit page:(int32_t)page __attribute__((swift_name("init(data:totalCount:lastPage:limit:page:)"))) __attribute__((objc_designated_initializer));
-- (NSArray<DKSUserDataDto *> *)component1 __attribute__((swift_name("component1()")));
+- (instancetype)initWithData:(NSArray<DKSUserPagingDataDto *> *)data totalCount:(int32_t)totalCount lastPage:(int32_t)lastPage limit:(int32_t)limit page:(int32_t)page __attribute__((swift_name("init(data:totalCount:lastPage:limit:page:)"))) __attribute__((objc_designated_initializer));
+- (NSArray<DKSUserPagingDataDto *> *)component1 __attribute__((swift_name("component1()")));
 - (int32_t)component2 __attribute__((swift_name("component2()")));
 - (int32_t)component3 __attribute__((swift_name("component3()")));
 - (int32_t)component4 __attribute__((swift_name("component4()")));
 - (int32_t)component5 __attribute__((swift_name("component5()")));
-- (DKSUserPagingDto *)doCopyData:(NSArray<DKSUserDataDto *> *)data totalCount:(int32_t)totalCount lastPage:(int32_t)lastPage limit:(int32_t)limit page:(int32_t)page __attribute__((swift_name("doCopy(data:totalCount:lastPage:limit:page:)")));
+- (DKSUserPagingDto *)doCopyData:(NSArray<DKSUserPagingDataDto *> *)data totalCount:(int32_t)totalCount lastPage:(int32_t)lastPage limit:(int32_t)limit page:(int32_t)page __attribute__((swift_name("doCopy(data:totalCount:lastPage:limit:page:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) DKSUserPaging *asDomain __attribute__((swift_name("asDomain")));
-@property (readonly) NSArray<DKSUserDataDto *> *data __attribute__((swift_name("data")));
+@property (readonly) NSArray<DKSUserPagingDataDto *> *data __attribute__((swift_name("data")));
 @property (readonly) int32_t lastPage __attribute__((swift_name("lastPage")));
 @property (readonly) int32_t limit __attribute__((swift_name("limit")));
 @property (readonly) int32_t page __attribute__((swift_name("page")));
@@ -1073,6 +1240,36 @@ __attribute__((swift_name("AuthDao")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BookEntity")))
+@interface DKSBookEntity : DKSBase
+- (instancetype)initWithId:(NSString *)id name:(NSString *)name author:(NSString * _Nullable)author pageCount:(DKSLong * _Nullable)pageCount __attribute__((swift_name("init(id:name:author:pageCount:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
+- (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
+- (DKSLong * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (DKSBookEntity *)doCopyId:(NSString *)id name:(NSString *)name author:(NSString * _Nullable)author pageCount:(DKSLong * _Nullable)pageCount __attribute__((swift_name("doCopy(id:name:author:pageCount:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable author __attribute__((swift_name("author")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) DKSLong * _Nullable pageCount __attribute__((swift_name("pageCount")));
+@end;
+
+__attribute__((swift_name("BookQueries")))
+@protocol DKSBookQueries <DKSRuntimeTransacter>
+@required
+- (void)deleteId:(NSString *)id __attribute__((swift_name("delete(id:)")));
+- (void)deleteAllBooks __attribute__((swift_name("deleteAllBooks()")));
+- (DKSRuntimeQuery<DKSBookEntity *> *)getAllBooks __attribute__((swift_name("getAllBooks()")));
+- (DKSRuntimeQuery<id> *)getAllBooksMapper:(id (^)(NSString *, NSString *, NSString * _Nullable, DKSLong * _Nullable))mapper __attribute__((swift_name("getAllBooks(mapper:)")));
+- (DKSRuntimeQuery<DKSBookEntity *> *)getBookId:(NSString *)id __attribute__((swift_name("getBook(id:)")));
+- (DKSRuntimeQuery<id> *)getBookId:(NSString *)id mapper:(id (^)(NSString *, NSString *, NSString * _Nullable, DKSLong * _Nullable))mapper __attribute__((swift_name("getBook(id:mapper:)")));
+- (void)insertOrReplaceBookEntity:(DKSBookEntity *)BookEntity __attribute__((swift_name("insertOrReplace(BookEntity:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DriverFactory")))
 @interface DKSDriverFactory : DKSBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -1081,29 +1278,34 @@ __attribute__((swift_name("DriverFactory")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UserDetail")))
-@interface DKSUserDetail : DKSBase
-- (instancetype)initWithId:(NSString *)id phone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio __attribute__((swift_name("init(id:phone:bio:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("UserCache")))
+@interface DKSUserCache : DKSBase
+- (instancetype)initWithId:(NSString *)id email:(NSString *)email firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName __attribute__((swift_name("init(id:email:firstName:lastName:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)component1 __attribute__((swift_name("component1()")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()")));
+- (NSString *)component2 __attribute__((swift_name("component2()")));
 - (NSString * _Nullable)component3 __attribute__((swift_name("component3()")));
-- (DKSUserDetail *)doCopyId:(NSString *)id phone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio __attribute__((swift_name("doCopy(id:phone:bio:)")));
+- (NSString * _Nullable)component4 __attribute__((swift_name("component4()")));
+- (DKSUserCache *)doCopyId:(NSString *)id email:(NSString *)email firstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName __attribute__((swift_name("doCopy(id:email:firstName:lastName:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString * _Nullable bio __attribute__((swift_name("bio")));
+@property (readonly) NSString *email __attribute__((swift_name("email")));
+@property (readonly) NSString * _Nullable firstName __attribute__((swift_name("firstName")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSString * _Nullable phone __attribute__((swift_name("phone")));
+@property (readonly) NSString * _Nullable lastName __attribute__((swift_name("lastName")));
 @end;
 
-__attribute__((swift_name("UserDetailQueries")))
-@protocol DKSUserDetailQueries <DKSRuntimeTransacter>
+__attribute__((swift_name("UserCacheQueries")))
+@protocol DKSUserCacheQueries <DKSRuntimeTransacter>
 @required
 - (void)deleteId:(NSString *)id __attribute__((swift_name("delete(id:)")));
-- (DKSRuntimeQuery<DKSUserDetail *> *)getId:(NSString *)id __attribute__((swift_name("get(id:)")));
-- (DKSRuntimeQuery<id> *)getId:(NSString *)id mapper:(id (^)(NSString *, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("get(id:mapper:)")));
-- (void)insertUserDetail:(DKSUserDetail *)UserDetail __attribute__((swift_name("insert(UserDetail:)")));
-- (void)updatePhone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio id:(NSString *)id __attribute__((swift_name("update(phone:bio:id:)")));
+- (void)deleteCache __attribute__((swift_name("deleteCache()")));
+- (DKSRuntimeQuery<DKSUserCache *> *)getCache __attribute__((swift_name("getCache()")));
+- (DKSRuntimeQuery<id> *)getCacheMapper:(id (^)(NSString *, NSString *, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("getCache(mapper:)")));
+- (DKSRuntimeQuery<DKSLong *> *)getUserCount __attribute__((swift_name("getUserCount()")));
+- (DKSRuntimeQuery<DKSUserCache *> *)getUsersPaginatedLimit:(int64_t)limit offset:(int64_t)offset __attribute__((swift_name("getUsersPaginated(limit:offset:)")));
+- (DKSRuntimeQuery<id> *)getUsersPaginatedLimit:(int64_t)limit offset:(int64_t)offset mapper:(id (^)(NSString *, NSString *, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("getUsersPaginated(limit:offset:mapper:)")));
+- (void)insertOrReplaceUserCache:(DKSUserCache *)UserCache __attribute__((swift_name("insertOrReplace(UserCache:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1131,16 +1333,13 @@ __attribute__((swift_name("UserEntity")))
 __attribute__((swift_name("UserQueries")))
 @protocol DKSUserQueries <DKSRuntimeTransacter>
 @required
+- (void)deleteAllUsers __attribute__((swift_name("deleteAllUsers()")));
 - (void)deleteUserId:(NSString *)id __attribute__((swift_name("deleteUser(id:)")));
 - (DKSRuntimeQuery<DKSUserEntity *> *)getAllUsers __attribute__((swift_name("getAllUsers()")));
 - (DKSRuntimeQuery<id> *)getAllUsersMapper:(id (^)(NSString *, NSString *, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("getAllUsers(mapper:)")));
 - (DKSRuntimeQuery<DKSUserEntity *> *)getUserId:(NSString *)id __attribute__((swift_name("getUser(id:)")));
 - (DKSRuntimeQuery<id> *)getUserId:(NSString *)id mapper:(id (^)(NSString *, NSString *, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("getUser(id:mapper:)")));
-- (DKSRuntimeQuery<DKSLong *> *)getUserCount __attribute__((swift_name("getUserCount()")));
-- (DKSRuntimeQuery<DKSUserEntity *> *)getUsersPaginatedLimit:(int64_t)limit offset:(int64_t)offset __attribute__((swift_name("getUsersPaginated(limit:offset:)")));
-- (DKSRuntimeQuery<id> *)getUsersPaginatedLimit:(int64_t)limit offset:(int64_t)offset mapper:(id (^)(NSString *, NSString *, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable, NSString * _Nullable))mapper __attribute__((swift_name("getUsersPaginated(limit:offset:mapper:)")));
-- (void)insertUserUserEntity:(DKSUserEntity *)UserEntity __attribute__((swift_name("insertUser(UserEntity:)")));
-- (void)updateUserFirstName:(NSString * _Nullable)firstName lastName:(NSString * _Nullable)lastName phone:(NSString * _Nullable)phone bio:(NSString * _Nullable)bio id:(NSString *)id __attribute__((swift_name("updateUser(firstName:lastName:phone:bio:id:)")));
+- (void)insertOrReplaceUserEntity:(DKSUserEntity *)UserEntity __attribute__((swift_name("insertOrReplace(UserEntity:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1168,40 +1367,71 @@ __attribute__((swift_name("AuthSourceImpl")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BookLocalSourceImpl")))
+@interface DKSBookLocalSourceImpl : DKSBase <DKSBookLocalSource>
+- (instancetype)initWithQueries:(id<DKSBookQueries>)queries __attribute__((swift_name("init(queries:)"))) __attribute__((objc_designated_initializer));
+- (id<DKSKotlinx_coroutines_coreFlow>)getAll __attribute__((swift_name("getAll()")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateOrInsertItems:(NSArray<DKSBookEntity *> *)items completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrInsert(items:completionHandler:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserLocalSourceImpl")))
 @interface DKSUserLocalSourceImpl : DKSBase <DKSUserLocalSource>
-- (instancetype)initWithUserQueries:(id<DKSUserQueries>)userQueries __attribute__((swift_name("init(userQueries:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithUserQueries:(id<DKSUserQueries>)userQueries userCacheQueries:(id<DKSUserCacheQueries>)userCacheQueries __attribute__((swift_name("init(userQueries:userCacheQueries:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)gePagingCachePaging:(DKSUserPagingRequest *)paging completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("gePagingCache(paging:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getPagingCacheCountWithCompletionHandler:(void (^)(DKSLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getPagingCacheCount(completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getUserId:(NSString *)id completionHandler:(void (^)(DKSUserEntity * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUser(id:completionHandler:)")));
-
-/**
- @note This method converts instances of CancellationException to errors.
- Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getUserCountWithCompletionHandler:(void (^)(DKSLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserCount(completionHandler:)")));
 - (id<DKSKotlinx_coroutines_coreFlow>)getUsers __attribute__((swift_name("getUsers()")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getUsersPaging:(DKSUserPagingRequest *)paging completionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getUsers(paging:completionHandler:)")));
+- (void)onPagingCacheChangedWithCompletionHandler:(void (^)(id<DKSKotlinx_coroutines_coreFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("onPagingCacheChanged(completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)updateOrCreateUserEntity:(DKSUserEntity *)user completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(userEntity:completionHandler:)")));
+- (void)replaceCacheWithUsers:(NSArray<DKSUserCache *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("replaceCacheWith(users:completionHandler:)")));
 
 /**
  @note This method converts instances of CancellationException to errors.
  Other uncaught Kotlin exceptions are fatal.
 */
-- (void)updateOrCreateUsers:(NSArray<DKSUserEntity *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(users:completionHandler:)")));
+- (void)updateOrCreateUserEntity:(DKSUserEntity *)userEntity completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(userEntity:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateOrCreateEntities:(NSArray<DKSUserEntity *> *)entities completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updateOrCreate(entities:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updatePagingCacheUsers:(NSArray<DKSUserCache *> *)users completionHandler:(void (^)(DKSKotlinUnit * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("updatePagingCache(users:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -1298,6 +1528,13 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("BackendError.NotAuthorized")))
 @interface DKSBackendErrorNotAuthorized : DKSBackendError
 - (instancetype)initWithResponseMessage:(NSString * _Nullable)responseMessage throwable:(DKSKotlinThrowable * _Nullable)throwable __attribute__((swift_name("init(responseMessage:throwable:)"))) __attribute__((objc_designated_initializer));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BackendError.Unknown")))
+@interface DKSBackendErrorUnknown : DKSBackendError
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end;
 
 __attribute__((swift_name("CommonError")))
@@ -1408,12 +1645,33 @@ __attribute__((swift_name("Log")))
 - (id<DKSKotlinx_coroutines_coreJob>)subscribeOnSuccess:(void (^)(DKSResult<id> *))onSuccess onThrow:(void (^)(DKSKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(onSuccess:onThrow:)")));
 @end;
 
+@interface DKSBookEntity (Extensions)
+@property (readonly) DKSBook *asDomain __attribute__((swift_name("asDomain")));
+@end;
+
 @interface DKSUserEntity (Extensions)
 @property (readonly) DKSUser *asDomain __attribute__((swift_name("asDomain")));
 @end;
 
+@interface DKSUserDto (Extensions)
+@property (readonly) DKSUser *asDomain __attribute__((swift_name("asDomain")));
+@end;
+
+@interface DKSUserPagingDataDto (Extensions)
+@property (readonly) DKSUserPagingData *asDomain __attribute__((swift_name("asDomain")));
+@end;
+
+@interface DKSUserPagingDto (Extensions)
+@property (readonly) DKSUserPagingResult *asDomain __attribute__((swift_name("asDomain")));
+@end;
+
 @interface DKSUser (Extensions)
 @property (readonly) DKSUserEntity *asEntity __attribute__((swift_name("asEntity")));
+@property (readonly) NSString *fullName __attribute__((swift_name("fullName")));
+@end;
+
+@interface DKSUserPagingData (Extensions)
+@property (readonly) DKSUserCache *asUserCache __attribute__((swift_name("asUserCache")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
