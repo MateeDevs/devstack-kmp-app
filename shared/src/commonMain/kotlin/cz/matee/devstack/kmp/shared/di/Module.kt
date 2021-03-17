@@ -17,6 +17,7 @@ import cz.matee.devstack.kmp.shared.domain.usecase.user.GetUsersUseCase
 import cz.matee.devstack.kmp.shared.domain.usecase.LoginUseCase
 import cz.matee.devstack.kmp.shared.domain.usecase.RegisterUseCase
 import cz.matee.devstack.kmp.shared.domain.usecase.book.GetBooksUseCase
+import cz.matee.devstack.kmp.shared.domain.usecase.book.RefreshBooksUseCase
 import cz.matee.devstack.kmp.shared.domain.usecase.user.*
 import cz.matee.devstack.kmp.shared.infrastructure.local.AuthDao
 import cz.matee.devstack.kmp.shared.infrastructure.local.AuthDaoImpl
@@ -71,6 +72,7 @@ private val commonModule = module {
     factory { UserCacheChangeFlowUseCase(get()) }
     factory { ReplaceUserCacheWithUseCase(get()) }
     factory { GetBooksUseCase(get()) }
+    factory { RefreshBooksUseCase(get()) }
 
 
     // Repositories
