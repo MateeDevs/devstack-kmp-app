@@ -31,6 +31,11 @@ class UserLocalSourceImpl(
     override suspend fun updateOrCreate(userEntity: UserEntity) =
         userQueries.insertOrReplace(userEntity)
 
+    override suspend fun updateOrCreate(entities: List<UserEntity>) {
+        userQueries.deleteAllUsers()
+        entities.forEach(userQueries::insertOrReplace)
+    }
+
 
     override suspend fun replaceCacheWith(users: List<UserCache>) = userCacheQueries.transaction {
         userCacheQueries.deleteCache()

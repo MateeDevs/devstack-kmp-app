@@ -32,6 +32,7 @@ class ErrorMessageProviderImpl(private val context: Context) : ErrorMessageProvi
     private val BackendError.errorMessage: String
         get() = when (this) {
             is BackendError.NotAuthorized -> "NotAuthorized - TODO" // TODO authorized error handling/message
+            is BackendError.Unknown -> "Unknown general error - TODO"
         }
 
     private val CommonError.errorMessage: String
