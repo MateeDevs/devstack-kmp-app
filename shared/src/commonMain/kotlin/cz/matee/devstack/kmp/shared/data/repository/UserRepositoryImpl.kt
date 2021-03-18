@@ -1,6 +1,5 @@
 package cz.matee.devstack.kmp.shared.data.repository
 
-import cz.matee.devstack.kmp.shared.base.ErrorResult
 import cz.matee.devstack.kmp.shared.base.Result
 import cz.matee.devstack.kmp.shared.base.error.domain.BackendError
 import cz.matee.devstack.kmp.shared.base.error.domain.CommonError
@@ -28,7 +27,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
 
-class UserRepositoryImpl(
+internal class UserRepositoryImpl(
     private val authDao: AuthDao,
     private val remoteSource: UserRemoteSource,
     private val localSource: UserLocalSource

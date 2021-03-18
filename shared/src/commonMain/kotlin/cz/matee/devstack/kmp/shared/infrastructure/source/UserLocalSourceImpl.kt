@@ -14,7 +14,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.map
 
-class UserLocalSourceImpl(
+internal class UserLocalSourceImpl(
     private val userQueries: UserQueries,
     private val userCacheQueries: UserCacheQueries
 ) : UserLocalSource {

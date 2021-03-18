@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import kotlin.random.Random
 
-class BookRepositoryImpl(
+internal class BookRepositoryImpl(
     private val source: BookLocalSource
 ) : BookRepository {
     override fun getAllBooks(): Flow<List<Book>> {

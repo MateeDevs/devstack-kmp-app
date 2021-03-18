@@ -4,7 +4,7 @@ import cz.matee.devstack.kmp.shared.base.Result
 import cz.matee.devstack.kmp.shared.base.usecase.UseCaseResultNoParams
 import cz.matee.devstack.kmp.shared.domain.repository.BookRepository
 
-class RefreshBooksUseCase(
+class RefreshBooksUseCase internal constructor(
     private val repository: BookRepository
 ) : UseCaseResultNoParams<Unit>() {
 

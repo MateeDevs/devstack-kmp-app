@@ -5,7 +5,7 @@ import cz.matee.devstack.kmp.shared.base.usecase.UseCaseResult
 import cz.matee.devstack.kmp.shared.data.source.UserPagingRequest
 import cz.matee.devstack.kmp.shared.domain.repository.UserRepository
 
-class RefreshUsersUseCase(
+class RefreshUsersUseCase internal constructor(
     private val repository: UserRepository
 ) : UseCaseResult<RefreshUsersUseCase.Params, Unit>() {
 
