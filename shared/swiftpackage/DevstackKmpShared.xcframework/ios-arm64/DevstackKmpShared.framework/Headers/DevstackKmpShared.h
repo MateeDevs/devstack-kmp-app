@@ -946,10 +946,10 @@ __attribute__((swift_name("Koin_coreKoin")))
 - (DKSKoin_coreScope *)createScopeScopeId:(NSString *)scopeId __attribute__((swift_name("createScope(scopeId:)")));
 - (DKSKoin_coreScope *)createScopeScopeId:(NSString *)scopeId source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:source:)")));
 - (DKSKoin_coreScope *)createScopeScopeId:(NSString *)scopeId qualifier:(id<DKSKoin_coreQualifier>)qualifier source:(id _Nullable)source __attribute__((swift_name("createScope(scopeId:qualifier:source:)")));
-- (void)declareInstance:(id)instance qualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<DKSKotlinKClass>> *)secondaryTypes override:(BOOL)override __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:override:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<DKSKotlinKClass>> *)secondaryTypes override:(BOOL)override __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:override:)")));
 - (void)deletePropertyKey:(NSString *)key __attribute__((swift_name("deleteProperty(key:)")));
 - (void)deleteScopeScopeId:(NSString *)scopeId __attribute__((swift_name("deleteScope(scopeId:)")));
-- (id)getClazz:(id<DKSKotlinKClass>)clazz qualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
+- (id _Nullable)getClazz:(id<DKSKotlinKClass>)clazz qualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
 - (id)getQualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
 - (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
 - (DKSKoin_coreScope *)getOrCreateScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getOrCreateScope(scopeId:)")));
@@ -958,6 +958,7 @@ __attribute__((swift_name("Koin_coreKoin")))
 - (id _Nullable)getOrNullQualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("getOrNull(qualifier:parameters:)")));
 - (id _Nullable)getPropertyKey:(NSString *)key __attribute__((swift_name("getProperty(key:)")));
 - (id)getPropertyKey:(NSString *)key defaultValue:(id)defaultValue __attribute__((swift_name("getProperty(key:defaultValue:)")));
+- (DKSKoin_coreScope *)getRootScope __attribute__((swift_name("getRootScope()")));
 - (DKSKoin_coreScope *)getScopeScopeId:(NSString *)scopeId __attribute__((swift_name("getScope(scopeId:)")));
 - (DKSKoin_coreScope * _Nullable)getScopeOrNullScopeId:(NSString *)scopeId __attribute__((swift_name("getScopeOrNull(scopeId:)")));
 - (id<DKSKotlinLazy>)injectQualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier mode:(DKSKotlinLazyThreadSafetyMode *)mode parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
@@ -1298,10 +1299,10 @@ __attribute__((swift_name("Koin_coreScope")))
 - (NSString *)component1 __attribute__((swift_name("component1()")));
 - (DKSKoin_coreScopeDefinition *)component2 __attribute__((swift_name("component2()")));
 - (DKSKoin_coreScope *)doCopyId:(NSString *)id _scopeDefinition:(DKSKoin_coreScopeDefinition *)_scopeDefinition _koin:(DKSKoin_coreKoin *)_koin __attribute__((swift_name("doCopy(id:_scopeDefinition:_koin:)")));
-- (void)declareInstance:(id)instance qualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<DKSKotlinKClass>> * _Nullable)secondaryTypes override:(BOOL)override __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:override:)")));
+- (void)declareInstance:(id _Nullable)instance qualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier secondaryTypes:(NSArray<id<DKSKotlinKClass>> * _Nullable)secondaryTypes override:(BOOL)override __attribute__((swift_name("declare(instance:qualifier:secondaryTypes:override:)")));
 - (void)dropInstanceBeanDefinition:(DKSKoin_coreBeanDefinition<id> *)beanDefinition __attribute__((swift_name("dropInstance(beanDefinition:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (id)getClazz:(id<DKSKotlinKClass>)clazz qualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
+- (id _Nullable)getClazz:(id<DKSKotlinKClass>)clazz qualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("get(clazz:qualifier:parameters:)")));
 - (id)getQualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("get(qualifier:parameters:)")));
 - (NSArray<id> *)getAll __attribute__((swift_name("getAll()")));
 - (NSArray<id> *)getAllClazz:(id<DKSKotlinKClass>)clazz __attribute__((swift_name("getAll(clazz:)")));
@@ -1316,6 +1317,7 @@ __attribute__((swift_name("Koin_coreScope")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (id<DKSKotlinLazy>)injectQualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier mode:(DKSKotlinLazyThreadSafetyMode *)mode parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("inject(qualifier:mode:parameters:)")));
 - (id<DKSKotlinLazy>)injectOrNullQualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier mode:(DKSKotlinLazyThreadSafetyMode *)mode parameters:(DKSKoin_coreDefinitionParameters *(^ _Nullable)(void))parameters __attribute__((swift_name("injectOrNull(qualifier:mode:parameters:)")));
+- (BOOL)isNotClosed __attribute__((swift_name("isNotClosed()")));
 - (void)linkToScopes:(DKSKotlinArray<DKSKoin_coreScope *> *)scopes __attribute__((swift_name("linkTo(scopes:)")));
 - (void)loadDefinitionBeanDefinition:(DKSKoin_coreBeanDefinition<id> *)beanDefinition __attribute__((swift_name("loadDefinition(beanDefinition:)")));
 - (void)registerCallbackCallback:(id<DKSKoin_coreScopeCallback>)callback __attribute__((swift_name("registerCallback(callback:)")));
@@ -1394,6 +1396,7 @@ __attribute__((swift_name("Koin_coreModule")))
 - (void)scopeQualifier:(id<DKSKoin_coreQualifier>)qualifier scopeSet:(void (^)(DKSKoin_coreScopeDSL *))scopeSet __attribute__((swift_name("scope(qualifier:scopeSet:)")));
 - (void)scopeScopeSet:(void (^)(DKSKoin_coreScopeDSL *))scopeSet __attribute__((swift_name("scope(scopeSet:)")));
 - (DKSKoin_coreBeanDefinition<id> *)singleQualifier:(id<DKSKoin_coreQualifier> _Nullable)qualifier createdAtStart:(BOOL)createdAtStart override:(BOOL)override definition:(id _Nullable (^)(DKSKoin_coreScope *, DKSKoin_coreDefinitionParameters *))definition __attribute__((swift_name("single(qualifier:createdAtStart:override:definition:)")));
+@property (readonly) BOOL isLoaded __attribute__((swift_name("isLoaded")));
 @end;
 
 __attribute__((swift_name("Koin_coreLogger")))
@@ -1605,7 +1608,7 @@ __attribute__((swift_name("Koin_coreScopeDefinition")))
 - (id<DKSKoin_coreQualifier>)component1 __attribute__((swift_name("component1()")));
 - (BOOL)component2 __attribute__((swift_name("component2()")));
 - (DKSKoin_coreScopeDefinition *)doCopyQualifier:(id<DKSKoin_coreQualifier>)qualifier isRoot:(BOOL)isRoot __attribute__((swift_name("doCopy(qualifier:isRoot:)")));
-- (DKSKoin_coreBeanDefinition<id> *)declareNewDefinitionInstance:(id)instance defQualifier:(id<DKSKoin_coreQualifier> _Nullable)defQualifier secondaryTypes:(NSArray<id<DKSKotlinKClass>> * _Nullable)secondaryTypes override:(BOOL)override __attribute__((swift_name("declareNewDefinition(instance:defQualifier:secondaryTypes:override:)")));
+- (DKSKoin_coreBeanDefinition<id> *)declareNewDefinitionInstance:(id _Nullable)instance defQualifier:(id<DKSKoin_coreQualifier> _Nullable)defQualifier secondaryTypes:(NSArray<id<DKSKotlinKClass>> * _Nullable)secondaryTypes override:(BOOL)override __attribute__((swift_name("declareNewDefinition(instance:defQualifier:secondaryTypes:override:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (void)removeBeanDefinition:(DKSKoin_coreBeanDefinition<id> *)beanDefinition __attribute__((swift_name("remove(beanDefinition:)")));
