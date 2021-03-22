@@ -61,7 +61,6 @@ internal class UserRepositoryImpl(
                 Result.Success(Unit)
             }
             is Result.Error -> Result.Error(result.error)
-            else -> Result.Error(BackendError.Unknown())
         }
     }
 

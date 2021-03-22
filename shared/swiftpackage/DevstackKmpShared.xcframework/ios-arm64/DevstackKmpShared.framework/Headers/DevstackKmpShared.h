@@ -815,13 +815,6 @@ __attribute__((swift_name("BackendError.NotAuthorized")))
 - (instancetype)initWithResponseMessage:(NSString * _Nullable)responseMessage throwable:(DKSKotlinThrowable * _Nullable)throwable __attribute__((swift_name("init(responseMessage:throwable:)"))) __attribute__((objc_designated_initializer));
 @end;
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BackendError.Unknown")))
-@interface DKSBackendErrorUnknown : DKSBackendError
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@end;
-
 __attribute__((swift_name("CommonError")))
 @interface DKSCommonError : DKSErrorResult
 - (instancetype)initWithMessage:(NSString * _Nullable)message throwable:(DKSKotlinThrowable * _Nullable)throwable __attribute__((swift_name("init(message:throwable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
