@@ -13,8 +13,16 @@ import kotlinx.coroutines.flow.Flow
  * Use cases are the entry points to the domain layer.
  *
  */
+
+interface UseCaseInterface<Params, T>{
+    suspend operator fun invoke(params: Params): T
+}
+interface UseCaseResultInterface<in Params,out T : Any>{
+    suspend operator fun invoke(params: Params): Result<T>
+}
+
 abstract class UseCaseResult<in Params, out T : Any>(dispatcher: CoroutineDispatcher = Dispatchers.Default) :
-    UseCase<Params, Result<T>>(dispatcher)
+    UseCase<Params, Result<T>>(dispatcher), UseCaseResultInterface<Params, T>
 
 abstract class UseCaseResultNoParams<out T : Any>(dispatcher: CoroutineDispatcher = Dispatchers.Default) :
     UseCase<Unit, Result<T>>(dispatcher) {

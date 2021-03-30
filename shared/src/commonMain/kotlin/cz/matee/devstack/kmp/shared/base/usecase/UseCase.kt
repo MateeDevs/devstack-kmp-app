@@ -29,7 +29,7 @@ abstract class UseCase<in Params, out T>(open val dispatcher: CoroutineDispatche
      * @param params Set of input parameters
      * @return type [T] of parameter. In the most common way the [T] is wrapped to a special use-case implementation.
      */
-    protected abstract suspend fun doWork(params: Params): T
+    abstract suspend fun doWork(params: Params): T
 }
 
 
