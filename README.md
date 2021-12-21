@@ -1,3 +1,5 @@
+# ⚠️ Deprecated - use https://github.com/MateeDevs/devstack-native-app 
+
 ## Matee multiplatform devstack
 
 ### About
